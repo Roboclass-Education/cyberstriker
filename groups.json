@@ -1,0 +1,2294 @@
+[
+  {
+    "id": "frame",
+    "title": "Basisplaat — bijgewerkte DXF",
+    "category": "mechanical",
+    "names": [
+      "Final Frame with TCS cutouts"
+    ],
+    "parts": [
+      "Basisplaat — bijgewerkte DXF"
+    ]
+  },
+  {
+    "id": "sensors",
+    "title": "TCS kleursensor met 7P JST-XH",
+    "category": "mechanical",
+    "names": [
+      "TCS34727",
+      "JST_XH_7P_TCS34727",
+      "TCS34727.001",
+      "JST_XH_7P_TCS34727.001",
+      "TCS34727.002",
+      "JST_XH_7P_TCS34727.002",
+      "TCS34727.003",
+      "JST_XH_7P_TCS34727.003",
+      "TCS34727.004",
+      "JST_XH_7P_TCS34727.004",
+      "TCS34727.005",
+      "JST_XH_7P_TCS34727.005",
+      "TCS34727.006",
+      "JST_XH_7P_TCS34727.006",
+      "TCS34727.007",
+      "JST_XH_7P_TCS34727.007",
+      "TCS34727.008",
+      "JST_XH_7P_TCS34727.008",
+      "TCS34727.009",
+      "JST_XH_7P_TCS34727.009",
+      "TCS34727.010",
+      "JST_XH_7P_TCS34727.010",
+      "TCS34727.011",
+      "JST_XH_7P_TCS34727.011",
+      "TCS34727.012",
+      "JST_XH_7P_TCS34727.012",
+      "TCS34727.013",
+      "JST_XH_7P_TCS34727.013",
+      "TCS34727.014",
+      "JST_XH_7P_TCS34727.014",
+      "TCS34727.015",
+      "JST_XH_7P_TCS34727.015"
+    ],
+    "parts": [
+      "TCS kleursensor met 7P JST-XH"
+    ]
+  },
+  {
+    "id": "bracket0",
+    "title": "Motorbracket 1",
+    "category": "mechanical",
+    "names": [
+      "DC Motor Bracket v8"
+    ],
+    "parts": [
+      "Motorbracket 1"
+    ]
+  },
+  {
+    "id": "bracket1",
+    "title": "Motorbracket 2",
+    "category": "mechanical",
+    "names": [
+      "DC Motor Bracket v8.001"
+    ],
+    "parts": [
+      "Motorbracket 2"
+    ]
+  },
+  {
+    "id": "bracket2",
+    "title": "Motorbracket 3",
+    "category": "mechanical",
+    "names": [
+      "DC Motor Bracket v8.002"
+    ],
+    "parts": [
+      "Motorbracket 3"
+    ]
+  },
+  {
+    "id": "bracket3",
+    "title": "Motorbracket 4",
+    "category": "mechanical",
+    "names": [
+      "DC Motor Bracket v8.003"
+    ],
+    "parts": [
+      "Motorbracket 4"
+    ]
+  },
+  {
+    "id": "motor0",
+    "title": "Aandrijfmotor 1",
+    "category": "mechanical",
+    "names": [
+      "JGA25-370 .001"
+    ],
+    "parts": [
+      "Aandrijfmotor 1"
+    ]
+  },
+  {
+    "id": "motor1",
+    "title": "Aandrijfmotor 2",
+    "category": "mechanical",
+    "names": [
+      "JGA25-370 .002"
+    ],
+    "parts": [
+      "Aandrijfmotor 2"
+    ]
+  },
+  {
+    "id": "motor2",
+    "title": "Aandrijfmotor 3",
+    "category": "mechanical",
+    "names": [
+      "JGA25-370 .003"
+    ],
+    "parts": [
+      "Aandrijfmotor 3"
+    ]
+  },
+  {
+    "id": "motor3",
+    "title": "Aandrijfmotor 4",
+    "category": "mechanical",
+    "names": [
+      "JGA25-370 .004"
+    ],
+    "parts": [
+      "Aandrijfmotor 4"
+    ]
+  },
+  {
+    "id": "wheel0",
+    "title": "Omniwiel 1",
+    "category": "mechanical",
+    "names": [
+      "WheelAsm"
+    ],
+    "parts": [
+      "Omniwiel 1"
+    ]
+  },
+  {
+    "id": "wheel1",
+    "title": "Omniwiel 2",
+    "category": "mechanical",
+    "names": [
+      "WheelAsm.001"
+    ],
+    "parts": [
+      "Omniwiel 2"
+    ]
+  },
+  {
+    "id": "wheel2",
+    "title": "Omniwiel 3",
+    "category": "mechanical",
+    "names": [
+      "WheelAsm.002"
+    ],
+    "parts": [
+      "Omniwiel 3"
+    ]
+  },
+  {
+    "id": "wheel3",
+    "title": "Omniwiel 4",
+    "category": "mechanical",
+    "names": [
+      "WheelAsm.003"
+    ],
+    "parts": [
+      "Omniwiel 4"
+    ]
+  },
+  {
+    "id": "bumper",
+    "title": "Bumpers — 4 bijgewerkte houten delen",
+    "category": "mechanical",
+    "names": [
+      "Frame Bumpers"
+    ],
+    "parts": [
+      "Bumpers — 4 bijgewerkte houten delen"
+    ]
+  },
+  {
+    "id": "pcb",
+    "title": "RoboClass PCB met gesoldeerde componenten",
+    "category": "pcb",
+    "names": [
+      "Cube",
+      "Cube.001",
+      "Cube.002",
+      "Cube.003",
+      "Cube.007",
+      "Cube.008",
+      "Cube.009",
+      "Cube.010",
+      "Robot Assembly",
+      "Robot Assembly.003",
+      "Robot Assembly.004",
+      "Robot Assembly.005",
+      "Robot Assembly.006",
+      "Robot Assembly.007",
+      "Robot Assembly.008",
+      "Robot Assembly.009",
+      "Robot Assembly.010",
+      "Robot Assembly.011",
+      "Robot Assembly.012",
+      "Robot Assembly.013",
+      "Robot Assembly.014",
+      "Robot Assembly.015",
+      "Robot Assembly.016",
+      "Robot Assembly.017",
+      "Robot Assembly.018",
+      "Robot Assembly.019",
+      "Robot Assembly.020",
+      "Robot Assembly.021",
+      "Robot Assembly.022",
+      "Robot Assembly.023",
+      "Robot Assembly.028",
+      "Robot Assembly.029",
+      "Robot Assembly.032",
+      "Robot Assembly.033",
+      "Robot Assembly.036",
+      "Robot Assembly.037",
+      "Robot Assembly.039",
+      "Robot Assembly.041",
+      "Robot Assembly.044",
+      "Robot Assembly.045",
+      "Robot Assembly.046",
+      "Robot Assembly.047",
+      "Robot Assembly.051",
+      "Robot Assembly.052",
+      "Robot Assembly.059",
+      "Robot Assembly.060",
+      "Robot Assembly.061",
+      "Robot Assembly.062",
+      "Robot Assembly.063",
+      "Robot Assembly.064",
+      "Robot Assembly.065",
+      "Robot Assembly.066",
+      "Robot Assembly.067",
+      "Robot Assembly.068",
+      "Robot Assembly.069",
+      "Robot Assembly.070",
+      "Robot Assembly.071",
+      "Robot Assembly.072",
+      "Robot Assembly.073",
+      "Robot Assembly.074",
+      "Robot Assembly.075",
+      "Robot Assembly.076",
+      "Robot Assembly.077",
+      "Robot Assembly.078",
+      "Robot Assembly.079",
+      "Robot Assembly.080",
+      "Robot Assembly.082",
+      "Robot Assembly.083",
+      "Robot Assembly.084",
+      "Robot Assembly.085",
+      "Robot Assembly.087",
+      "Robot Assembly.089",
+      "Robot Assembly.094",
+      "Robot Assembly.097",
+      "Robot Assembly.098",
+      "Robot Assembly.100",
+      "Robot Assembly.101",
+      "Robot Assembly.102",
+      "Robot Assembly.105",
+      "Robot Assembly.106",
+      "Robot Assembly.107",
+      "Robot Assembly.108",
+      "Robot Assembly.109",
+      "Robot Assembly.110",
+      "Robot Assembly.113",
+      "Robot Assembly.116",
+      "Robot Assembly.118",
+      "Robot Assembly.120",
+      "Robot Assembly.122",
+      "Robot Assembly.123",
+      "Robot Assembly.125",
+      "Robot Assembly.128",
+      "Robot Assembly.129",
+      "Robot Assembly.130",
+      "Robot Assembly.132",
+      "Robot Assembly.134",
+      "Robot Assembly.137",
+      "Robot Assembly.143",
+      "Robot Assembly.144",
+      "Robot Assembly.147",
+      "Robot Assembly.151",
+      "Robot Assembly.153",
+      "Robot Assembly.154",
+      "Robot Assembly.156",
+      "Robot Assembly.158",
+      "Robot Assembly.159",
+      "Robot Assembly.160",
+      "Robot Assembly.162",
+      "Robot Assembly.169",
+      "Robot Assembly.173",
+      "Robot Assembly.180",
+      "Robot Assembly.181",
+      "Robot Assembly.182",
+      "Robot Assembly.183",
+      "Robot Assembly.186",
+      "Robot Assembly.187",
+      "Robot Assembly.189",
+      "Robot Assembly.191",
+      "Robot Assembly.192",
+      "Robot Assembly.194",
+      "Robot Assembly.195",
+      "Robot Assembly.196",
+      "Robot Assembly.197",
+      "Robot Assembly.198",
+      "Robot Assembly.199",
+      "Robot Assembly.200",
+      "Robot Assembly.201",
+      "Robot Assembly.202",
+      "Robot Assembly.203",
+      "Robot Assembly.204",
+      "Robot Assembly.205",
+      "Robot Assembly.206",
+      "Robot Assembly.207",
+      "Robot Assembly.208",
+      "Robot Assembly.209",
+      "Robot Assembly.210",
+      "Robot Assembly.211",
+      "Robot Assembly.212",
+      "Robot Assembly.213",
+      "Robot Assembly.214",
+      "Robot Assembly.215",
+      "Robot Assembly.216",
+      "Robot Assembly.217",
+      "Robot Assembly.218",
+      "Robot Assembly.219",
+      "Robot Assembly.220",
+      "Robot Assembly.221",
+      "Robot Assembly.222",
+      "Robot Assembly.223",
+      "Robot Assembly.224",
+      "Robot Assembly.225",
+      "Robot Assembly.226",
+      "Robot Assembly.227",
+      "Robot Assembly.228",
+      "Robot Assembly.229",
+      "Robot Assembly.230",
+      "Robot Assembly.231",
+      "Robot Assembly.232",
+      "Robot Assembly.233",
+      "Robot Assembly.234",
+      "Robot Assembly.235",
+      "Robot Assembly.236",
+      "Robot Assembly.237",
+      "Robot Assembly.238",
+      "Robot Assembly.239",
+      "Robot Assembly.241",
+      "Robot Assembly.244",
+      "Robot Assembly.245",
+      "Robot Assembly.247",
+      "Robot Assembly.248",
+      "Robot Assembly.253",
+      "Robot Assembly.255",
+      "Robot Assembly.258",
+      "Robot Assembly.259",
+      "Robot Assembly.260",
+      "Robot Assembly.261",
+      "Robot Assembly.262",
+      "Robot Assembly.263",
+      "Robot Assembly.264",
+      "Robot Assembly.265",
+      "Robot Assembly.266",
+      "Robot Assembly.267",
+      "Robot Assembly.268",
+      "Robot Assembly.269",
+      "Robot Assembly.270",
+      "Robot Assembly.271",
+      "Robot Assembly.272",
+      "Robot Assembly.273",
+      "Robot Assembly.274",
+      "Robot Assembly.275",
+      "Robot Assembly.276",
+      "Robot Assembly.277",
+      "Robot Assembly.278",
+      "Robot Assembly.281",
+      "Robot Assembly.286",
+      "Robot Assembly.287",
+      "Robot Assembly.289",
+      "Robot Assembly.290",
+      "Robot Assembly.291",
+      "Robot Assembly.292",
+      "Robot Assembly.293",
+      "Robot Assembly.294",
+      "Robot Assembly.295",
+      "Robot Assembly.296",
+      "Robot Assembly.297",
+      "Robot Assembly.298",
+      "Robot Assembly.299",
+      "Robot Assembly.300",
+      "Robot Assembly.301",
+      "Robot Assembly.302",
+      "Robot Assembly.303",
+      "Robot Assembly.304",
+      "Robot Assembly.305",
+      "Robot Assembly.306",
+      "Robot Assembly.307",
+      "Robot Assembly.308",
+      "Robot Assembly.309",
+      "Robot Assembly.310",
+      "Robot Assembly.311",
+      "Robot Assembly.315",
+      "Robot Assembly.316",
+      "Robot Assembly.318",
+      "Robot Assembly.319",
+      "Robot Assembly.334",
+      "Robot Assembly.335",
+      "Robot Assembly.341",
+      "Robot Assembly.342",
+      "Robot Assembly.343",
+      "Robot Assembly.344",
+      "Robot Assembly.345",
+      "Robot Assembly.346",
+      "Robot Assembly.347",
+      "Robot Assembly.348",
+      "Robot Assembly.349",
+      "Robot Assembly.350",
+      "Robot Assembly.351",
+      "Robot Assembly.352",
+      "Robot Assembly.353",
+      "Robot Assembly.354",
+      "Robot Assembly.355",
+      "Robot Assembly.356",
+      "Robot Assembly.357",
+      "Robot Assembly.358",
+      "Robot Assembly.359",
+      "Robot Assembly.360",
+      "Robot Assembly.361",
+      "Robot Assembly.363",
+      "Robot Assembly.364",
+      "Robot Assembly.365",
+      "Robot Assembly.366",
+      "Robot Assembly.367",
+      "Robot Assembly.368",
+      "Robot Assembly.369",
+      "Robot Assembly.370",
+      "Robot Assembly.371",
+      "Robot Assembly.372",
+      "Robot Assembly.373",
+      "Robot Assembly.374",
+      "Robot Assembly.375",
+      "Robot Assembly.376",
+      "Robot Assembly.377",
+      "Robot Assembly.378",
+      "Robot Assembly.379",
+      "Robot Assembly.380",
+      "Robot Assembly.381",
+      "Robot Assembly.382",
+      "Robot Assembly.383",
+      "Robot Assembly.384",
+      "Robot Assembly.387",
+      "Robot Assembly.388",
+      "Robot Assembly.389",
+      "Robot Assembly.396",
+      "Robot Assembly.398",
+      "Robot Assembly.399",
+      "Robot Assembly.401",
+      "Robot Assembly.403",
+      "Robot Assembly.404",
+      "Robot Assembly.405",
+      "Robot Assembly.406",
+      "Robot Assembly.407",
+      "Robot Assembly.409",
+      "Robot Assembly.413",
+      "Robot Assembly.415",
+      "Robot Assembly.417",
+      "Robot Assembly.418",
+      "Robot Assembly.419",
+      "Robot Assembly.420",
+      "Robot Assembly.421",
+      "Robot Assembly.422",
+      "Robot Assembly.423",
+      "Robot Assembly.424",
+      "Robot Assembly.425",
+      "Robot Assembly.426",
+      "Robot Assembly.427",
+      "Robot Assembly.428",
+      "Robot Assembly.429",
+      "Robot Assembly.430",
+      "Robot Assembly.431",
+      "Robot Assembly.432",
+      "Robot Assembly.433",
+      "Robot Assembly.434",
+      "Robot Assembly.435",
+      "Robot Assembly.436",
+      "Robot Assembly.437",
+      "Robot Assembly.440",
+      "Robot Assembly.441",
+      "Robot Assembly.444",
+      "Robot Assembly.446",
+      "Robot Assembly.448",
+      "Robot Assembly.450",
+      "Robot Assembly.451",
+      "Robot Assembly.458",
+      "Robot Assembly.464",
+      "Robot Assembly.467",
+      "Robot Assembly.469",
+      "Robot Assembly.470",
+      "Robot Assembly.471",
+      "Robot Assembly.475",
+      "Robot Assembly.477",
+      "Robot Assembly.478",
+      "Robot Assembly.479",
+      "Robot Assembly.483",
+      "Robot Assembly.484",
+      "Robot Assembly.486",
+      "Robot Assembly.487",
+      "Robot Assembly.488",
+      "Robot Assembly.489",
+      "Robot Assembly.490",
+      "Robot Assembly.491",
+      "Robot Assembly.492",
+      "Robot Assembly.494",
+      "Robot Assembly.497",
+      "Robot Assembly.500",
+      "Robot Assembly.501",
+      "Robot Assembly.502",
+      "Robot Assembly.503",
+      "Robot Assembly.504",
+      "Robot Assembly.505",
+      "Robot Assembly.506",
+      "Robot Assembly.507",
+      "Robot Assembly.508",
+      "Robot Assembly.509",
+      "Robot Assembly.510",
+      "Robot Assembly.511",
+      "Robot Assembly.512",
+      "Robot Assembly.513",
+      "Robot Assembly.514",
+      "Robot Assembly.515",
+      "Robot Assembly.516",
+      "Robot Assembly.517",
+      "Robot Assembly.518",
+      "Robot Assembly.519",
+      "Robot Assembly.520",
+      "Robot Assembly.521",
+      "Robot Assembly.523",
+      "Robot Assembly.524",
+      "Robot Assembly.525",
+      "Robot Assembly.526",
+      "Robot Assembly.527",
+      "Robot Assembly.528",
+      "Robot Assembly.529",
+      "Robot Assembly.530",
+      "Robot Assembly.531",
+      "Robot Assembly.532",
+      "Robot Assembly.533",
+      "Robot Assembly.534",
+      "Robot Assembly.535",
+      "Robot Assembly.536",
+      "Robot Assembly.537",
+      "Robot Assembly.538",
+      "Robot Assembly.539",
+      "Robot Assembly.540",
+      "Robot Assembly.541",
+      "Robot Assembly.542",
+      "Robot Assembly.543",
+      "Robot Assembly.545",
+      "Robot Assembly.546",
+      "Robot Assembly.551",
+      "Robot Assembly.553",
+      "Robot Assembly.555",
+      "Robot Assembly.556",
+      "Robot Assembly.557",
+      "Robot Assembly.559",
+      "Robot Assembly.561",
+      "Robot Assembly.562",
+      "Robot Assembly.563",
+      "Robot Assembly.564",
+      "Robot Assembly.565",
+      "Robot Assembly.566",
+      "Robot Assembly.567",
+      "Robot Assembly.568",
+      "Robot Assembly.569",
+      "Robot Assembly.570",
+      "Robot Assembly.571",
+      "Robot Assembly.572",
+      "Robot Assembly.573",
+      "Robot Assembly.574",
+      "Robot Assembly.575",
+      "Robot Assembly.576",
+      "Robot Assembly.577",
+      "Robot Assembly.578",
+      "Robot Assembly.579",
+      "Robot Assembly.580",
+      "Robot Assembly.581",
+      "Robot Assembly.583",
+      "Robot Assembly.585",
+      "Robot Assembly.588",
+      "Robot Assembly.589",
+      "Robot Assembly.590",
+      "Robot Assembly.591",
+      "Robot Assembly.593",
+      "Robot Assembly.596",
+      "Robot Assembly.597",
+      "Robot Assembly.598",
+      "Robot Assembly.603",
+      "Robot Assembly.605",
+      "Robot Assembly.606",
+      "Robot Assembly.608",
+      "Robot Assembly.610",
+      "Robot Assembly.611",
+      "Robot Assembly.615",
+      "Robot Assembly.616",
+      "Robot Assembly.620",
+      "Robot Assembly.621",
+      "Robot Assembly.624",
+      "Robot Assembly.632",
+      "Robot Assembly.634",
+      "Robot Assembly.635",
+      "Robot Assembly.640",
+      "Robot Assembly.641",
+      "Robot Assembly.642",
+      "Robot Assembly.643",
+      "Robot Assembly.644",
+      "Robot Assembly.645",
+      "Robot Assembly.646",
+      "Robot Assembly.647",
+      "Robot Assembly.648",
+      "Robot Assembly.649",
+      "Robot Assembly.650",
+      "Robot Assembly.651",
+      "Robot Assembly.652",
+      "Robot Assembly.653",
+      "Robot Assembly.654",
+      "Robot Assembly.655",
+      "Robot Assembly.656",
+      "Robot Assembly.657",
+      "Robot Assembly.658",
+      "Robot Assembly.659",
+      "Robot Assembly.660",
+      "Robot Assembly.661",
+      "Robot Assembly.662",
+      "Robot Assembly.668",
+      "Robot Assembly.669",
+      "Robot Assembly.671",
+      "Robot Assembly.673",
+      "Robot Assembly.674",
+      "Robot Assembly.675",
+      "Robot Assembly.676",
+      "Robot Assembly.677",
+      "Robot Assembly.678",
+      "Robot Assembly.679",
+      "Robot Assembly.680",
+      "Robot Assembly.681",
+      "Robot Assembly.682",
+      "Robot Assembly.683",
+      "Robot Assembly.684",
+      "Robot Assembly.685",
+      "Robot Assembly.686",
+      "Robot Assembly.687",
+      "Robot Assembly.688",
+      "Robot Assembly.689",
+      "Robot Assembly.690",
+      "Robot Assembly.691",
+      "Robot Assembly.692",
+      "Robot Assembly.693",
+      "Robot Assembly.696",
+      "Robot Assembly.697",
+      "Robot Assembly.698",
+      "Robot Assembly.699",
+      "Robot Assembly.701",
+      "Robot Assembly.703",
+      "Robot Assembly.704",
+      "Robot Assembly.705",
+      "Robot Assembly.706",
+      "Robot Assembly.707",
+      "Robot Assembly.708",
+      "Robot Assembly.709",
+      "Robot Assembly.710",
+      "Robot Assembly.711",
+      "Robot Assembly.712",
+      "Robot Assembly.713",
+      "Robot Assembly.714",
+      "Robot Assembly.715",
+      "Robot Assembly.716",
+      "Robot Assembly.717",
+      "Robot Assembly.718",
+      "Robot Assembly.719",
+      "Robot Assembly.720",
+      "Robot Assembly.721",
+      "Robot Assembly.722",
+      "Robot Assembly.723",
+      "Robot Assembly.724",
+      "Robot Assembly.725",
+      "Robot Assembly.726",
+      "Robot Assembly.727",
+      "Robot Assembly.728",
+      "Robot Assembly.729",
+      "Robot Assembly.730",
+      "Robot Assembly.731",
+      "Robot Assembly.732",
+      "Robot Assembly.733",
+      "Robot Assembly.734",
+      "Robot Assembly.735",
+      "Robot Assembly.736",
+      "Robot Assembly.737",
+      "Robot Assembly.738",
+      "Robot Assembly.739",
+      "Robot Assembly.740",
+      "Robot Assembly.741",
+      "Robot Assembly.742",
+      "Robot Assembly.743",
+      "Robot Assembly.744",
+      "Robot Assembly.745",
+      "Robot Assembly.746",
+      "Robot Assembly.747",
+      "Robot Assembly.748",
+      "Robot Assembly.749",
+      "Robot Assembly.752",
+      "Robot Assembly.753",
+      "Robot Assembly.755",
+      "Robot Assembly.756",
+      "Robot Assembly.757",
+      "Robot Assembly.758",
+      "Robot Assembly.759",
+      "Robot Assembly.760",
+      "Robot Assembly.777",
+      "Robot Assembly.788",
+      "Robot Assembly.789",
+      "Robot Assembly.791",
+      "Robot Assembly.792",
+      "Robot Assembly.793",
+      "Robot Assembly.794",
+      "Robot Assembly.795",
+      "Robot Assembly.796",
+      "Robot Assembly.797",
+      "Robot Assembly.798",
+      "Robot Assembly.799",
+      "Robot Assembly.800",
+      "Robot Assembly.801",
+      "Robot Assembly.802",
+      "Robot Assembly.803",
+      "Robot Assembly.804",
+      "Robot Assembly.805",
+      "Robot Assembly.806",
+      "Robot Assembly.807",
+      "Robot Assembly.808",
+      "Robot Assembly.809",
+      "Robot Assembly.810",
+      "Robot Assembly.811",
+      "Robot Assembly.812",
+      "Robot Assembly.813",
+      "Robot Assembly.818",
+      "Robot Assembly.819",
+      "Robot Assembly.820",
+      "Robot Assembly.821",
+      "Robot Assembly.825",
+      "Robot Assembly.827",
+      "Robot Assembly.829",
+      "Robot Assembly.831",
+      "Robot Assembly.837",
+      "Robot Assembly.838",
+      "Robot Assembly.842",
+      "Robot Assembly.846",
+      "Robot Assembly.848",
+      "Robot Assembly.851",
+      "Robot Assembly.853",
+      "Robot Assembly.854",
+      "Robot Assembly.855",
+      "Robot Assembly.856",
+      "Robot Assembly.857",
+      "Robot Assembly.858",
+      "Robot Assembly.859",
+      "Robot Assembly.860",
+      "Robot Assembly.861",
+      "Robot Assembly.862",
+      "Robot Assembly.863",
+      "Robot Assembly.864",
+      "Robot Assembly.865",
+      "Robot Assembly.866",
+      "Robot Assembly.867",
+      "Robot Assembly.868",
+      "Robot Assembly.869",
+      "Robot Assembly.870",
+      "Robot Assembly.871",
+      "Robot Assembly.872",
+      "Robot Assembly.873",
+      "Robot Assembly.874",
+      "Robot Assembly.876",
+      "Robot Assembly.878",
+      "Robot Assembly.879",
+      "Robot Assembly.882",
+      "Robot Assembly.885",
+      "Robot Assembly.886",
+      "Robot Assembly.889",
+      "Robot Assembly.891",
+      "Robot Assembly.894",
+      "Robot Assembly.896",
+      "Robot Assembly.897",
+      "Robot Assembly.898",
+      "Robot Assembly.901",
+      "pcb_610",
+      "pcb_611",
+      "pcb_612",
+      "pcb_613",
+      "pcb_614",
+      "pcb_615",
+      "pcb_616",
+      "pcb_617",
+      "pcb_618",
+      "pcb_619",
+      "pcb_620",
+      "pcb_621",
+      "pcb_622",
+      "pcb_623",
+      "pcb_624",
+      "pcb_625",
+      "pcb_626",
+      "pcb_627",
+      "pcb_628",
+      "pcb_629",
+      "pcb_630",
+      "pcb_631",
+      "pcb_632",
+      "pcb_633",
+      "pcb_634",
+      "pcb_635",
+      "pcb_636",
+      "pcb_637",
+      "pcb_638",
+      "pcb_639",
+      "pcb_640",
+      "pcb_641",
+      "pcb_642",
+      "pcb_643",
+      "pcb_644",
+      "pcb_645",
+      "pcb_646",
+      "pcb_647",
+      "pcb_648",
+      "pcb_649",
+      "pcb_650",
+      "pcb_651",
+      "pcb_652",
+      "pcb_653",
+      "pcb_654",
+      "pcb_655",
+      "pcb_656",
+      "pcb_657",
+      "pcb_658",
+      "pcb_659",
+      "pcb_660",
+      "pcb_661",
+      "pcb_662",
+      "pcb_663",
+      "pcb_664",
+      "pcb_665",
+      "pcb_666",
+      "pcb_667",
+      "pcb_668",
+      "pcb_669",
+      "pcb_670",
+      "pcb_671",
+      "pcb_672",
+      "pcb_673",
+      "pcb_674",
+      "pcb_675",
+      "pcb_676",
+      "pcb_677",
+      "pcb_678",
+      "pcb_679",
+      "pcb_680",
+      "pcb_681",
+      "pcb_682",
+      "pcb_683",
+      "pcb_684",
+      "pcb_685",
+      "pcb_686",
+      "pcb_687",
+      "pcb_688",
+      "pcb_689",
+      "pcb_690",
+      "pcb_691",
+      "pcb_692",
+      "pcb_693",
+      "pcb_694",
+      "pcb_695",
+      "pcb_696",
+      "pcb_697",
+      "pcb_698",
+      "pcb_699",
+      "pcb_700",
+      "pcb_701",
+      "pcb_702",
+      "pcb_703",
+      "pcb_704",
+      "pcb_705",
+      "pcb_706",
+      "pcb_707",
+      "pcb_708",
+      "pcb_709",
+      "pcb_710",
+      "pcb_711",
+      "pcb_712",
+      "pcb_713",
+      "pcb_714",
+      "pcb_715",
+      "pcb_716",
+      "pcb_717",
+      "pcb_718",
+      "pcb_719"
+    ],
+    "parts": [
+      "RoboClass PCB met gesoldeerde componenten"
+    ]
+  },
+  {
+    "id": "mux1",
+    "title": "TCA multiplexer 2",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.025",
+      "Robot Assembly.031",
+      "Robot Assembly.034",
+      "Robot Assembly.115",
+      "Robot Assembly.127",
+      "Robot Assembly.161",
+      "Robot Assembly.176",
+      "Robot Assembly.280",
+      "Robot Assembly.457",
+      "Robot Assembly.461",
+      "Robot Assembly.547",
+      "Robot Assembly.637",
+      "Robot Assembly.834"
+    ],
+    "parts": [
+      "TCA multiplexer 2"
+    ]
+  },
+  {
+    "id": "regulator",
+    "title": "DD4012SA — basisversie",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.026",
+      "Robot Assembly.027",
+      "Robot Assembly.112",
+      "Robot Assembly.131",
+      "Robot Assembly.166",
+      "Robot Assembly.184",
+      "Robot Assembly.240",
+      "Robot Assembly.254",
+      "Robot Assembly.408",
+      "Robot Assembly.442",
+      "Robot Assembly.449",
+      "Robot Assembly.594"
+    ],
+    "parts": [
+      "DD4012SA — basisversie"
+    ]
+  },
+  {
+    "id": "due",
+    "title": "Arduino Due",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.030",
+      "Robot Assembly.048",
+      "Robot Assembly.049",
+      "Robot Assembly.086",
+      "Robot Assembly.096",
+      "Robot Assembly.135",
+      "Robot Assembly.152",
+      "Robot Assembly.163",
+      "Robot Assembly.165",
+      "Robot Assembly.168",
+      "Robot Assembly.174",
+      "Robot Assembly.175",
+      "Robot Assembly.178",
+      "Robot Assembly.279",
+      "Robot Assembly.283",
+      "Robot Assembly.284",
+      "Robot Assembly.317",
+      "Robot Assembly.362",
+      "Robot Assembly.386",
+      "Robot Assembly.447",
+      "Robot Assembly.453",
+      "Robot Assembly.454",
+      "Robot Assembly.460",
+      "Robot Assembly.472",
+      "Robot Assembly.480",
+      "Robot Assembly.495",
+      "Robot Assembly.496",
+      "Robot Assembly.548",
+      "Robot Assembly.552",
+      "Robot Assembly.560",
+      "Robot Assembly.600",
+      "Robot Assembly.604",
+      "Robot Assembly.609",
+      "Robot Assembly.626",
+      "Robot Assembly.633",
+      "Robot Assembly.638",
+      "Robot Assembly.667",
+      "Robot Assembly.672",
+      "Robot Assembly.786",
+      "Robot Assembly.816",
+      "Robot Assembly.830",
+      "Robot Assembly.840",
+      "Robot Assembly.843",
+      "Robot Assembly.845",
+      "Robot Assembly.883",
+      "Robot Assembly.890",
+      "Robot Assembly.905",
+      "Robot Assembly.142",
+      "Robot Assembly.601",
+      "Robot Assembly.607",
+      "Robot Assembly.880",
+      "due_51",
+      "due_52",
+      "due_53",
+      "due_54",
+      "due_55",
+      "due_56",
+      "due_57",
+      "due_58",
+      "due_59",
+      "due_60",
+      "due_61",
+      "due_62",
+      "due_63",
+      "due_64",
+      "due_65",
+      "due_66",
+      "due_67",
+      "due_68",
+      "due_69",
+      "due_70",
+      "due_71",
+      "due_72",
+      "due_73",
+      "due_74",
+      "due_75",
+      "due_76",
+      "due_77",
+      "due_78",
+      "due_79",
+      "due_80",
+      "due_81",
+      "due_82",
+      "due_83",
+      "due_84",
+      "due_85",
+      "due_86",
+      "due_87",
+      "due_88",
+      "due_89",
+      "due_90",
+      "due_91",
+      "due_92",
+      "due_93",
+      "due_94",
+      "due_95",
+      "due_96",
+      "due_97",
+      "due_98",
+      "due_99",
+      "due_100",
+      "due_101",
+      "due_102",
+      "due_103",
+      "due_104",
+      "due_105",
+      "due_106",
+      "due_107",
+      "due_108",
+      "due_109",
+      "due_110",
+      "due_111",
+      "due_112",
+      "due_113",
+      "due_114",
+      "due_115",
+      "due_116",
+      "due_117",
+      "due_118",
+      "due_119",
+      "due_120",
+      "due_121",
+      "due_122",
+      "due_123",
+      "due_124",
+      "due_125",
+      "due_126",
+      "due_127",
+      "due_128",
+      "due_129",
+      "due_130",
+      "due_131",
+      "due_132",
+      "due_133",
+      "due_134",
+      "due_135",
+      "due_136",
+      "due_137",
+      "due_138",
+      "due_139",
+      "due_140",
+      "due_141",
+      "due_142"
+    ],
+    "parts": [
+      "Arduino Due"
+    ]
+  },
+  {
+    "id": "us0",
+    "title": "US-016 1",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.040",
+      "Robot Assembly.133",
+      "Robot Assembly.157",
+      "Robot Assembly.599"
+    ],
+    "parts": [
+      "US-016 1"
+    ]
+  },
+  {
+    "id": "us1",
+    "title": "US-016 2",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.042",
+      "Robot Assembly.465",
+      "Robot Assembly.764",
+      "Robot Assembly.815"
+    ],
+    "parts": [
+      "US-016 2"
+    ]
+  },
+  {
+    "id": "us2",
+    "title": "US-016 3",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.043",
+      "Robot Assembly.050",
+      "Robot Assembly.826",
+      "Robot Assembly.877"
+    ],
+    "parts": [
+      "US-016 3"
+    ]
+  },
+  {
+    "id": "us3",
+    "title": "US-016 4",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.090",
+      "Robot Assembly.485",
+      "Robot Assembly.902",
+      "Robot Assembly.903"
+    ],
+    "parts": [
+      "US-016 4"
+    ]
+  },
+  {
+    "id": "bno",
+    "title": "BNO055",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.092",
+      "Robot Assembly.024",
+      "Robot Assembly.035",
+      "Robot Assembly.038",
+      "Robot Assembly.053",
+      "Robot Assembly.054",
+      "Robot Assembly.055",
+      "Robot Assembly.056",
+      "Robot Assembly.058",
+      "Robot Assembly.081",
+      "Robot Assembly.088",
+      "Robot Assembly.099",
+      "Robot Assembly.103",
+      "Robot Assembly.104",
+      "Robot Assembly.114",
+      "Robot Assembly.119",
+      "Robot Assembly.121",
+      "Robot Assembly.138",
+      "Robot Assembly.139",
+      "Robot Assembly.145",
+      "Robot Assembly.146",
+      "Robot Assembly.149",
+      "Robot Assembly.164",
+      "Robot Assembly.170",
+      "Robot Assembly.172",
+      "Robot Assembly.190",
+      "Robot Assembly.246",
+      "Robot Assembly.249",
+      "Robot Assembly.251",
+      "Robot Assembly.252",
+      "Robot Assembly.256",
+      "Robot Assembly.282",
+      "Robot Assembly.312",
+      "Robot Assembly.313",
+      "Robot Assembly.314",
+      "Robot Assembly.390",
+      "Robot Assembly.391",
+      "Robot Assembly.392",
+      "Robot Assembly.394",
+      "Robot Assembly.411",
+      "Robot Assembly.412",
+      "Robot Assembly.439",
+      "Robot Assembly.445",
+      "Robot Assembly.452",
+      "Robot Assembly.455",
+      "Robot Assembly.456",
+      "Robot Assembly.459",
+      "Robot Assembly.462",
+      "Robot Assembly.463",
+      "Robot Assembly.468",
+      "Robot Assembly.473",
+      "Robot Assembly.474",
+      "Robot Assembly.476",
+      "Robot Assembly.482",
+      "Robot Assembly.498",
+      "Robot Assembly.522",
+      "Robot Assembly.544",
+      "Robot Assembly.549",
+      "Robot Assembly.550",
+      "Robot Assembly.554",
+      "Robot Assembly.582",
+      "Robot Assembly.584",
+      "Robot Assembly.602",
+      "Robot Assembly.612",
+      "Robot Assembly.614",
+      "Robot Assembly.618",
+      "Robot Assembly.622",
+      "Robot Assembly.623",
+      "Robot Assembly.627",
+      "Robot Assembly.628",
+      "Robot Assembly.629",
+      "Robot Assembly.631",
+      "Robot Assembly.636",
+      "Robot Assembly.663",
+      "Robot Assembly.664",
+      "Robot Assembly.665",
+      "Robot Assembly.666",
+      "Robot Assembly.670",
+      "Robot Assembly.694",
+      "Robot Assembly.695",
+      "Robot Assembly.700",
+      "Robot Assembly.750",
+      "Robot Assembly.761",
+      "Robot Assembly.762",
+      "Robot Assembly.763",
+      "Robot Assembly.787",
+      "Robot Assembly.814",
+      "Robot Assembly.817",
+      "Robot Assembly.822",
+      "Robot Assembly.823",
+      "Robot Assembly.824",
+      "Robot Assembly.828",
+      "Robot Assembly.832",
+      "Robot Assembly.839",
+      "Robot Assembly.844",
+      "Robot Assembly.847",
+      "Robot Assembly.849",
+      "Robot Assembly.875",
+      "Robot Assembly.881",
+      "Robot Assembly.884",
+      "Robot Assembly.887",
+      "Robot Assembly.892",
+      "Robot Assembly.895",
+      "Robot Assembly.899",
+      "Robot Assembly.904",
+      "Robot Assembly.906",
+      "Robot Assembly.908",
+      "Robot Assembly.909",
+      "Robot Assembly.910"
+    ],
+    "parts": [
+      "BNO055"
+    ]
+  },
+  {
+    "id": "mux0",
+    "title": "TCA multiplexer 1",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.141",
+      "Robot Assembly.148",
+      "Robot Assembly.150",
+      "Robot Assembly.177",
+      "Robot Assembly.185",
+      "Robot Assembly.188",
+      "Robot Assembly.193",
+      "Robot Assembly.242",
+      "Robot Assembly.243",
+      "Robot Assembly.702",
+      "Robot Assembly.833"
+    ],
+    "parts": [
+      "TCA multiplexer 1"
+    ]
+  },
+  {
+    "id": "switch-white",
+    "title": "Witte powerknop",
+    "category": "pcb",
+    "names": [
+      "small_MA_switch_b"
+    ],
+    "parts": [
+      "Witte powerknop"
+    ]
+  },
+  {
+    "id": "switch-red",
+    "title": "Rood/zwarte powerknop",
+    "category": "pcb",
+    "names": [
+      "small_MA_switch_b.001"
+    ],
+    "parts": [
+      "Rood/zwarte powerknop"
+    ]
+  },
+  {
+    "id": "mc0",
+    "title": "L298N motorcontroller 1",
+    "category": "mechanical",
+    "names": [
+      "mc0_0",
+      "mc0_1",
+      "mc0_2",
+      "mc0_3",
+      "mc0_4",
+      "mc0_5",
+      "mc0_6",
+      "mc0_7",
+      "mc0_8",
+      "mc0_9",
+      "mc0_10",
+      "mc0_11",
+      "mc0_12"
+    ],
+    "parts": [
+      "L298N motorcontroller 1"
+    ]
+  },
+  {
+    "id": "mc1",
+    "title": "L298N motorcontroller 2",
+    "category": "mechanical",
+    "names": [
+      "mc1_0",
+      "mc1_1",
+      "mc1_2",
+      "mc1_3",
+      "mc1_4",
+      "mc1_5",
+      "mc1_6",
+      "mc1_7",
+      "mc1_8",
+      "mc1_9",
+      "mc1_10",
+      "mc1_11",
+      "mc1_12"
+    ],
+    "parts": [
+      "L298N motorcontroller 2"
+    ]
+  },
+  {
+    "id": "wood_battery",
+    "title": "Batterijhouder",
+    "category": "wood",
+    "names": [
+      "Batterijhouder"
+    ],
+    "parts": [
+      "Batterijhouder"
+    ]
+  },
+  {
+    "id": "wood_handle",
+    "title": "Handgreep",
+    "category": "wood",
+    "names": [
+      "Handgreep"
+    ],
+    "parts": [
+      "Handgreep"
+    ]
+  },
+  {
+    "id": "wood_ir_slot",
+    "title": "IR-blocker met uitsparing",
+    "category": "wood",
+    "names": [
+      "IR-blocker met uitsparing"
+    ],
+    "parts": [
+      "IR-blocker met uitsparing"
+    ]
+  },
+  {
+    "id": "wood_ir_plain",
+    "title": "IR-blocker zonder uitsparing",
+    "category": "wood",
+    "names": [
+      "IR-blocker zonder uitsparing"
+    ],
+    "parts": [
+      "IR-blocker zonder uitsparing"
+    ]
+  },
+  {
+    "id": "sensor-fasteners",
+    "title": "Bevestiging kleursensoren · platkop-inbusbouten en borgmoeren",
+    "category": "mechanical",
+    "names": [
+      "sensor-fasteners_0",
+      "sensor-fasteners_1",
+      "sensor-fasteners_2",
+      "sensor-fasteners_3",
+      "sensor-fasteners_4",
+      "sensor-fasteners_5",
+      "sensor-fasteners_6",
+      "sensor-fasteners_7",
+      "sensor-fasteners_8",
+      "sensor-fasteners_9",
+      "sensor-fasteners_10",
+      "sensor-fasteners_11",
+      "sensor-fasteners_12",
+      "sensor-fasteners_13",
+      "sensor-fasteners_14",
+      "sensor-fasteners_15",
+      "sensor-fasteners_16",
+      "sensor-fasteners_17",
+      "sensor-fasteners_18",
+      "sensor-fasteners_19",
+      "sensor-fasteners_20",
+      "sensor-fasteners_21",
+      "sensor-fasteners_22",
+      "sensor-fasteners_23",
+      "sensor-fasteners_24",
+      "sensor-fasteners_25",
+      "sensor-fasteners_26",
+      "sensor-fasteners_27",
+      "sensor-fasteners_28",
+      "sensor-fasteners_29",
+      "sensor-fasteners_30",
+      "sensor-fasteners_31",
+      "sensor-fasteners_32",
+      "sensor-fasteners_33",
+      "sensor-fasteners_34",
+      "sensor-fasteners_35",
+      "sensor-fasteners_36",
+      "sensor-fasteners_37",
+      "sensor-fasteners_38",
+      "sensor-fasteners_39",
+      "sensor-fasteners_40",
+      "sensor-fasteners_41",
+      "sensor-fasteners_42",
+      "sensor-fasteners_43",
+      "sensor-fasteners_44",
+      "sensor-fasteners_45",
+      "sensor-fasteners_46",
+      "sensor-fasteners_47",
+      "sensor-fasteners_48",
+      "sensor-fasteners_49",
+      "sensor-fasteners_50",
+      "sensor-fasteners_51",
+      "sensor-fasteners_52",
+      "sensor-fasteners_53",
+      "sensor-fasteners_54",
+      "sensor-fasteners_55",
+      "sensor-fasteners_56",
+      "sensor-fasteners_57",
+      "sensor-fasteners_58",
+      "sensor-fasteners_59",
+      "sensor-fasteners_60",
+      "sensor-fasteners_61",
+      "sensor-fasteners_62",
+      "sensor-fasteners_63"
+    ],
+    "parts": [
+      "32× M3×10 mm platkop-inbusbout",
+      "32× M3 borgmoer"
+    ]
+  },
+  {
+    "id": "bracket0-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "bracket0-fasteners_0",
+      "bracket0-fasteners_1",
+      "bracket0-fasteners_2",
+      "bracket0-fasteners_3",
+      "bracket0-fasteners_4",
+      "bracket0-fasteners_5",
+      "bracket0-fasteners_6",
+      "bracket0-fasteners_7"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "bracket1-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "bracket1-fasteners_0",
+      "bracket1-fasteners_1",
+      "bracket1-fasteners_2",
+      "bracket1-fasteners_3",
+      "bracket1-fasteners_4",
+      "bracket1-fasteners_5",
+      "bracket1-fasteners_6",
+      "bracket1-fasteners_7"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "bracket2-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "bracket2-fasteners_0",
+      "bracket2-fasteners_1",
+      "bracket2-fasteners_2",
+      "bracket2-fasteners_3",
+      "bracket2-fasteners_4",
+      "bracket2-fasteners_5",
+      "bracket2-fasteners_6",
+      "bracket2-fasteners_7"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "bracket3-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "bracket3-fasteners_0",
+      "bracket3-fasteners_1",
+      "bracket3-fasteners_2",
+      "bracket3-fasteners_3",
+      "bracket3-fasteners_4",
+      "bracket3-fasteners_5",
+      "bracket3-fasteners_6",
+      "bracket3-fasteners_7"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "motor-bracket0-fasteners",
+    "title": "M3×8 platkop-inbusbout · motor",
+    "category": "mechanical",
+    "names": [
+      "motor-bracket0-fasteners_0",
+      "motor-bracket0-fasteners_1"
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ]
+  },
+  {
+    "id": "motor-bracket1-fasteners",
+    "title": "M3×8 platkop-inbusbout · motor",
+    "category": "mechanical",
+    "names": [
+      "motor-bracket1-fasteners_0",
+      "motor-bracket1-fasteners_1"
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ]
+  },
+  {
+    "id": "motor-bracket2-fasteners",
+    "title": "M3×8 platkop-inbusbout · motor",
+    "category": "mechanical",
+    "names": [
+      "motor-bracket2-fasteners_0",
+      "motor-bracket2-fasteners_1"
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ]
+  },
+  {
+    "id": "motor-bracket3-fasteners",
+    "title": "M3×8 platkop-inbusbout · motor",
+    "category": "mechanical",
+    "names": [
+      "motor-bracket3-fasteners_0",
+      "motor-bracket3-fasteners_1"
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ]
+  },
+  {
+    "id": "pcb-standoffs",
+    "title": "PCB-standoffs · onderste delen 40 mm",
+    "category": "mechanical",
+    "names": [
+      "pcb-standoffs_0",
+      "pcb-standoffs_1",
+      "pcb-standoffs_2",
+      "pcb-standoffs_3",
+      "pcb-standoffs_4",
+      "pcb-standoffs_5",
+      "pcb-standoffs_6",
+      "pcb-standoffs_7"
+    ],
+    "parts": [
+      "8× standoff 40 mm"
+    ]
+  },
+  {
+    "id": "pcb-standoffs-30",
+    "title": "PCB-standoffs · bovenste delen 30 mm",
+    "category": "mechanical",
+    "names": [
+      "pcb-standoffs-30_0",
+      "pcb-standoffs-30_1",
+      "pcb-standoffs-30_2",
+      "pcb-standoffs-30_3",
+      "pcb-standoffs-30_4",
+      "pcb-standoffs-30_5",
+      "pcb-standoffs-30_6",
+      "pcb-standoffs-30_7"
+    ],
+    "parts": [
+      "8× standoff 30 mm"
+    ]
+  },
+  {
+    "id": "pcb-standoff-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "pcb-standoff-fasteners_0",
+      "pcb-standoff-fasteners_1",
+      "pcb-standoff-fasteners_2",
+      "pcb-standoff-fasteners_3",
+      "pcb-standoff-fasteners_4",
+      "pcb-standoff-fasteners_5",
+      "pcb-standoff-fasteners_6",
+      "pcb-standoff-fasteners_7"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "pcb-washers-bottom",
+    "title": "M3-ringen onder de PCB",
+    "category": "mechanical",
+    "names": [
+      "pcb-washers-bottom_0",
+      "pcb-washers-bottom_1",
+      "pcb-washers-bottom_2",
+      "pcb-washers-bottom_3",
+      "pcb-washers-bottom_4",
+      "pcb-washers-bottom_5",
+      "pcb-washers-bottom_6",
+      "pcb-washers-bottom_7"
+    ],
+    "parts": [
+      "8× M3-ring"
+    ]
+  },
+  {
+    "id": "pcb-washers-top",
+    "title": "M3-ringen boven de PCB",
+    "category": "mechanical",
+    "names": [
+      "pcb-washers-top_0",
+      "pcb-washers-top_1",
+      "pcb-washers-top_2",
+      "pcb-washers-top_3",
+      "pcb-washers-top_4",
+      "pcb-washers-top_5",
+      "pcb-washers-top_6",
+      "pcb-washers-top_7"
+    ],
+    "parts": [
+      "8× M3-ring"
+    ]
+  },
+  {
+    "id": "pcb-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "pcb-fasteners_0",
+      "pcb-fasteners_1",
+      "pcb-fasteners_2",
+      "pcb-fasteners_3"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "mc0-standoffs",
+    "title": "Standoff 20 mm",
+    "category": "mechanical",
+    "names": [
+      "mc0-standoffs_0",
+      "mc0-standoffs_1",
+      "mc0-standoffs_2",
+      "mc0-standoffs_3"
+    ],
+    "parts": [
+      "Standoff 20 mm"
+    ]
+  },
+  {
+    "id": "mc0-standoff-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "mc0-standoff-fasteners_0",
+      "mc0-standoff-fasteners_1",
+      "mc0-standoff-fasteners_2",
+      "mc0-standoff-fasteners_3"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "mc0-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "mc0-fasteners_0",
+      "mc0-fasteners_1",
+      "mc0-fasteners_2",
+      "mc0-fasteners_3"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "mc1-standoffs",
+    "title": "Standoff 20 mm",
+    "category": "mechanical",
+    "names": [
+      "mc1-standoffs_0",
+      "mc1-standoffs_1",
+      "mc1-standoffs_2",
+      "mc1-standoffs_3"
+    ],
+    "parts": [
+      "Standoff 20 mm"
+    ]
+  },
+  {
+    "id": "mc1-standoff-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "mc1-standoff-fasteners_0",
+      "mc1-standoff-fasteners_1",
+      "mc1-standoff-fasteners_2",
+      "mc1-standoff-fasteners_3"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "mc1-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "mc1-fasteners_0",
+      "mc1-fasteners_1",
+      "mc1-fasteners_2",
+      "mc1-fasteners_3"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "bumper-standoffs",
+    "title": "Standoff 27 mm",
+    "category": "mechanical",
+    "names": [
+      "bumper-standoffs_0",
+      "bumper-standoffs_1",
+      "bumper-standoffs_2",
+      "bumper-standoffs_3",
+      "bumper-standoffs_4",
+      "bumper-standoffs_5",
+      "bumper-standoffs_6",
+      "bumper-standoffs_7",
+      "bumper-standoffs_8",
+      "bumper-standoffs_9",
+      "bumper-standoffs_10",
+      "bumper-standoffs_11",
+      "bumper-standoffs_12",
+      "bumper-standoffs_13",
+      "bumper-standoffs_14"
+    ],
+    "parts": [
+      "Standoff 27 mm"
+    ]
+  },
+  {
+    "id": "bumper-standoff-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "bumper-standoff-fasteners_0",
+      "bumper-standoff-fasteners_1",
+      "bumper-standoff-fasteners_2",
+      "bumper-standoff-fasteners_3",
+      "bumper-standoff-fasteners_4",
+      "bumper-standoff-fasteners_5",
+      "bumper-standoff-fasteners_6",
+      "bumper-standoff-fasteners_7",
+      "bumper-standoff-fasteners_8",
+      "bumper-standoff-fasteners_9",
+      "bumper-standoff-fasteners_10",
+      "bumper-standoff-fasteners_11",
+      "bumper-standoff-fasteners_12",
+      "bumper-standoff-fasteners_13",
+      "bumper-standoff-fasteners_14"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "bumper-fasteners",
+    "title": "M3×10 platkop-inbusbout",
+    "category": "mechanical",
+    "names": [
+      "bumper-fasteners_0",
+      "bumper-fasteners_1",
+      "bumper-fasteners_2",
+      "bumper-fasteners_3",
+      "bumper-fasteners_4",
+      "bumper-fasteners_5",
+      "bumper-fasteners_6",
+      "bumper-fasteners_7",
+      "bumper-fasteners_8",
+      "bumper-fasteners_9",
+      "bumper-fasteners_10",
+      "bumper-fasteners_11",
+      "bumper-fasteners_12",
+      "bumper-fasteners_13",
+      "bumper-fasteners_14"
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "ir-layer0",
+    "title": "IR-blocker 1 · inkeping 1",
+    "category": "pcb",
+    "names": [
+      "ir-layer0_0",
+      "ir-layer0_1",
+      "ir-layer0_2",
+      "ir-layer0_3",
+      "ir-layer0_4",
+      "ir-layer0_5",
+      "ir-layer0_6",
+      "ir-layer0_7"
+    ],
+    "parts": [
+      "IR-blocker 1 · inkeping 1"
+    ]
+  },
+  {
+    "id": "ir-layer1",
+    "title": "IR-blocker 1 · inkeping 2",
+    "category": "pcb",
+    "names": [
+      "ir-layer1_0",
+      "ir-layer1_1",
+      "ir-layer1_2",
+      "ir-layer1_3",
+      "ir-layer1_4",
+      "ir-layer1_5",
+      "ir-layer1_6",
+      "ir-layer1_7"
+    ],
+    "parts": [
+      "IR-blocker 1 · inkeping 2"
+    ]
+  },
+  {
+    "id": "ir-layer2",
+    "title": "IR-blocker 1 · sluitdeel",
+    "category": "pcb",
+    "names": [
+      "ir-layer2_0",
+      "ir-layer2_1",
+      "ir-layer2_2",
+      "ir-layer2_3",
+      "ir-layer2_4",
+      "ir-layer2_5",
+      "ir-layer2_6",
+      "ir-layer2_7"
+    ],
+    "parts": [
+      "IR-blocker 1 · sluitdeel"
+    ]
+  },
+  {
+    "id": "ir-bolts",
+    "title": "M2 ring boven PCB",
+    "category": "pcb",
+    "names": [
+      "ir-bolts_0",
+      "ir-bolts_1",
+      "ir-bolts_2",
+      "ir-bolts_3",
+      "ir-bolts_4",
+      "ir-bolts_5",
+      "ir-bolts_6",
+      "ir-bolts_7",
+      "ir-bolts_8",
+      "ir-bolts_9",
+      "ir-bolts_10",
+      "ir-bolts_11",
+      "ir-bolts_12",
+      "ir-bolts_13",
+      "ir-bolts_14",
+      "ir-bolts_15",
+      "ir-bolts_16",
+      "ir-bolts_17",
+      "ir-bolts_18",
+      "ir-bolts_19",
+      "ir-bolts_20",
+      "ir-bolts_21",
+      "ir-bolts_22",
+      "ir-bolts_23",
+      "ir-bolts_24",
+      "ir-bolts_25",
+      "ir-bolts_26",
+      "ir-bolts_27",
+      "ir-bolts_28",
+      "ir-bolts_29",
+      "ir-bolts_30",
+      "ir-bolts_31"
+    ],
+    "parts": [
+      "M2 ring boven PCB"
+    ]
+  },
+  {
+    "id": "ir-nuts",
+    "title": "M2 ring onder blocker",
+    "category": "pcb",
+    "names": [
+      "ir-nuts_0",
+      "ir-nuts_1",
+      "ir-nuts_2",
+      "ir-nuts_3",
+      "ir-nuts_4",
+      "ir-nuts_5",
+      "ir-nuts_6",
+      "ir-nuts_7",
+      "ir-nuts_8",
+      "ir-nuts_9",
+      "ir-nuts_10",
+      "ir-nuts_11",
+      "ir-nuts_12",
+      "ir-nuts_13",
+      "ir-nuts_14",
+      "ir-nuts_15",
+      "ir-nuts_16",
+      "ir-nuts_17",
+      "ir-nuts_18",
+      "ir-nuts_19",
+      "ir-nuts_20",
+      "ir-nuts_21",
+      "ir-nuts_22",
+      "ir-nuts_23",
+      "ir-nuts_24",
+      "ir-nuts_25",
+      "ir-nuts_26",
+      "ir-nuts_27",
+      "ir-nuts_28",
+      "ir-nuts_29",
+      "ir-nuts_30",
+      "ir-nuts_31"
+    ],
+    "parts": [
+      "M2 ring onder blocker"
+    ]
+  },
+  {
+    "id": "battery",
+    "title": "Houten batterijhouder",
+    "category": "mechanical",
+    "names": [
+      "battery_0"
+    ],
+    "parts": [
+      "Houten batterijhouder"
+    ]
+  },
+  {
+    "id": "battery-standoffs",
+    "title": "Batterijhouder · 20 mm standoffs",
+    "category": "mechanical",
+    "names": [
+      "battery-standoffs_0",
+      "battery-standoffs_1",
+      "battery-standoffs_2",
+      "battery-standoffs_3"
+    ],
+    "parts": [
+      "4× standoff 20 mm"
+    ]
+  },
+  {
+    "id": "battery-standoff-fasteners",
+    "title": "Bevestiging batterijhouderstandoffs",
+    "category": "mechanical",
+    "names": [
+      "battery-standoff-fasteners_0",
+      "battery-standoff-fasteners_1",
+      "battery-standoff-fasteners_2",
+      "battery-standoff-fasteners_3"
+    ],
+    "parts": [
+      "4× M3×10 mm platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "battery-fasteners",
+    "title": "Bevestiging batterijhouder",
+    "category": "mechanical",
+    "names": [
+      "battery-fasteners_0",
+      "battery-fasteners_1",
+      "battery-fasteners_2",
+      "battery-fasteners_3"
+    ],
+    "parts": [
+      "4× M3×10 mm platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "handle",
+    "title": "Houten handgreep",
+    "category": "mechanical",
+    "names": [
+      "handle_0"
+    ],
+    "parts": [
+      "Houten handgreep"
+    ]
+  },
+  {
+    "id": "handle-standoffs",
+    "title": "Handgreep · onderste delen 40 mm",
+    "category": "mechanical",
+    "names": [
+      "handle-standoffs_0",
+      "handle-standoffs_1",
+      "handle-standoffs_2",
+      "handle-standoffs_3",
+      "handle-standoffs_4",
+      "handle-standoffs_5",
+      "handle-standoffs_6",
+      "handle-standoffs_7"
+    ],
+    "parts": [
+      "4× standoff 40 mm"
+    ]
+  },
+  {
+    "id": "handle-standoffs-30",
+    "title": "Handgreep · bovenste delen 30 mm",
+    "category": "mechanical",
+    "names": [
+      "handle-standoffs-30_0",
+      "handle-standoffs-30_1",
+      "handle-standoffs-30_2",
+      "handle-standoffs-30_3"
+    ],
+    "parts": [
+      "4× standoff 30 mm"
+    ]
+  },
+  {
+    "id": "handle-fasteners",
+    "title": "Handgreepbevestiging",
+    "category": "mechanical",
+    "names": [
+      "handle-fasteners_0",
+      "handle-fasteners_1",
+      "handle-fasteners_2",
+      "handle-fasteners_3"
+    ],
+    "parts": [
+      "4× M3×10 mm platkop-inbusbout"
+    ]
+  },
+  {
+    "id": "bno-plug",
+    "title": "BNO055 uitneembare terminal 8P",
+    "category": "pcb",
+    "names": [
+      "bno-plug_0"
+    ],
+    "parts": [
+      "BNO055 uitneembare terminal 8P"
+    ]
+  },
+  {
+    "id": "us0-plug",
+    "title": "US-016 1 uitneembare terminal 4P",
+    "category": "pcb",
+    "names": [
+      "us0-plug_0"
+    ],
+    "parts": [
+      "US-016 1 uitneembare terminal 4P"
+    ]
+  },
+  {
+    "id": "us1-plug",
+    "title": "US-016 2 uitneembare terminal 4P",
+    "category": "pcb",
+    "names": [
+      "us1-plug_0"
+    ],
+    "parts": [
+      "US-016 2 uitneembare terminal 4P"
+    ]
+  },
+  {
+    "id": "us2-plug",
+    "title": "US-016 3 uitneembare terminal 4P",
+    "category": "pcb",
+    "names": [
+      "us2-plug_0"
+    ],
+    "parts": [
+      "US-016 3 uitneembare terminal 4P"
+    ]
+  },
+  {
+    "id": "us3-plug",
+    "title": "US-016 4 uitneembare terminal 4P",
+    "category": "pcb",
+    "names": [
+      "us3-plug_0"
+    ],
+    "parts": [
+      "US-016 4 uitneembare terminal 4P"
+    ]
+  },
+  {
+    "id": "regulator-plug",
+    "title": "DD4012SA uitneembare terminal 3P",
+    "category": "pcb",
+    "names": [
+      "regulator-plug_0"
+    ],
+    "parts": [
+      "DD4012SA uitneembare terminal 3P"
+    ]
+  },
+  {
+    "id": "mc0-control-cable",
+    "title": "6P Dupont-kabel · MC0",
+    "category": "mechanical",
+    "names": [
+      "mc0-control-cable"
+    ],
+    "parts": [
+      "6P female-female Dupont-kabel"
+    ]
+  },
+  {
+    "id": "mc0-power-cable",
+    "title": "XT30-voedingskabel · MC0",
+    "category": "mechanical",
+    "names": [
+      "mc0-power-cable"
+    ],
+    "parts": [
+      "XT30-voedingskabel"
+    ]
+  },
+  {
+    "id": "mc1-control-cable",
+    "title": "6P Dupont-kabel · MC1",
+    "category": "mechanical",
+    "names": [
+      "mc1-control-cable"
+    ],
+    "parts": [
+      "6P female-female Dupont-kabel"
+    ]
+  },
+  {
+    "id": "mc1-power-cable",
+    "title": "XT30-voedingskabel · MC1",
+    "category": "mechanical",
+    "names": [
+      "mc1-power-cable"
+    ],
+    "parts": [
+      "XT30-voedingskabel"
+    ]
+  },
+  {
+    "id": "motor0-wires",
+    "title": "Rode en zwarte motordraad 1",
+    "category": "mechanical",
+    "names": [
+      "motor0-wires"
+    ],
+    "parts": [
+      "1× rode en 1× zwarte motordraad"
+    ]
+  },
+  {
+    "id": "motor1-wires",
+    "title": "Rode en zwarte motordraad 2",
+    "category": "mechanical",
+    "names": [
+      "motor1-wires"
+    ],
+    "parts": [
+      "1× rode en 1× zwarte motordraad"
+    ]
+  },
+  {
+    "id": "motor2-wires",
+    "title": "Rode en zwarte motordraad 3",
+    "category": "mechanical",
+    "names": [
+      "motor2-wires"
+    ],
+    "parts": [
+      "1× rode en 1× zwarte motordraad"
+    ]
+  },
+  {
+    "id": "motor3-wires",
+    "title": "Rode en zwarte motordraad 4",
+    "category": "mechanical",
+    "names": [
+      "motor3-wires"
+    ],
+    "parts": [
+      "1× rode en 1× zwarte motordraad"
+    ]
+  }
+]

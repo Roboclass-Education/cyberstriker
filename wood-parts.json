@@ -1,0 +1,84 @@
+[
+  {
+    "id": "frame",
+    "title": "Basisplaat",
+    "note": "Nieuwe basisplaat uit de DXF; alle 16 kleursensoren zijn op de bijbehorende gaten en uitsparingen uitgelijnd.",
+    "parts": [
+      "1× basisplaat",
+      "Dikte: voorlopig 4 mm"
+    ],
+    "review": true
+  },
+  {
+    "id": "bumper",
+    "title": "Bumpers",
+    "note": "Vier losse bumpercontouren uit de bijgewerkte DXF. De hoogte komt uit het bestaande model.",
+    "parts": [
+      "4× houten bumperdeel",
+      "Dikte: voorlopig 4 mm"
+    ],
+    "review": true,
+    "instructions": [
+      "Bereid de gewone bumperdelen los voor: plaats bij elk drie-gaten-deel drie afstandhouders.",
+      "Steek de bouten door het hout en schroef de afstandhouders aan dezelfde zijde vast.",
+      "Controleer het afwijkende vierde bumperdeel afzonderlijk voordat je de complete bumpers plaatst."
+    ],
+    "pending": "Bumpervideo 0:15–0:58 bevestigt drie afstandhouders per getoond deel; overzicht 0:28 toont drie voorbereide delen. Het vierde DXF-deel, lengtes en plaatsing op het frame zijn hiermee nog niet bevestigd."
+  },
+  {
+    "id": "wood_battery",
+    "title": "Batterijhouder",
+    "note": "De houten batterijhouder is ook in de montage opgenomen, op vier 20 mm-standoffs van hetzelfde type als de motorcontrollerstandoffs.",
+    "parts": [
+      "1× houten batterijhouder",
+      "4× standoff 20 mm",
+      "8× M3×10 mm platkop-inbusbout: 4 voor het frame en 4 voor de houder",
+      "Houtdikte: voorlopig 4 mm"
+    ],
+    "review": true,
+    "instructions": [
+      "Bevestig vier 20 mm-standoffs op de bijbehorende framegaten.",
+      "Plaats de houder en bevestig de vier buitenste montagegaten.",
+      "Laat de twee middelste gaten vrij."
+    ]
+  },
+  {
+    "id": "wood_handle",
+    "title": "Handgreep",
+    "note": "De handgreep is opgenomen in de montage, op vier combinaties van 40 + 30 mm boven de PCB. Dezelfde vier assen lopen via de onderste standoffs door naar het frame.",
+    "parts": [
+      "1× houten handgreep",
+      "4× standoff 40 mm",
+      "4× standoff 30 mm",
+      "4× M3×10 mm platkop-inbusbout",
+      "M3-ringen aan beide zijden van de PCB",
+      "Houtdikte: voorlopig 4 mm"
+    ],
+    "review": true,
+    "instructions": [
+      "Gebruik de twee linker en twee rechter doorgaande montagegaten.",
+      "Klem de PCB met M3-ringen tussen de onderste en bovenste standoffcombinaties.",
+      "Plaats de handgreep op de bovenste 40 + 30 mm-combinaties en zet deze van boven vast."
+    ]
+  },
+  {
+    "id": "wood_ir_slot",
+    "title": "IR-blocker met uitsparing",
+    "note": "Dit profiel wordt in de montage gebruikt: per IR-ontvanger twee delen met inkeping en één sluitdeel zonder inkeping.",
+    "parts": [
+      "16× deel met inkeping",
+      "Houtdikte: voorlopig 4 mm"
+    ],
+    "review": true
+  },
+  {
+    "id": "wood_ir_plain",
+    "title": "IR-blocker zonder uitsparing",
+    "note": "Dit profiel wordt in de montage gebruikt: per IR-ontvanger twee delen met inkeping en één sluitdeel zonder inkeping.",
+    "parts": [
+      "8× sluitdeel zonder inkeping",
+      "Houtdikte: voorlopig 4 mm"
+    ],
+    "review": true
+  }
+]
