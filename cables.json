@@ -27,7 +27,12 @@
       0,
       0.7069485311520978
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.046952631229727995,
+      0.059,
+      0.04696307208403055
+    ]
   },
   {
     "id": "jst-TCS34727.001",
@@ -57,7 +62,12 @@
       0,
       0.706948529515926
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.029008862871432194,
+      0.059,
+      0.03496542109647511
+    ]
   },
   {
     "id": "jst-TCS34727.002",
@@ -87,7 +97,12 @@
       0,
       0.7069485314977296
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.028722670352472113,
+      0.067,
+      0.02867922865405043
+    ]
   },
   {
     "id": "jst-TCS34727.003",
@@ -117,7 +132,12 @@
       0,
       0.7069485322232159
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.023115449212490424,
+      0.059,
+      0.017072007363184677
+    ]
   },
   {
     "id": "jst-TCS34727.004",
@@ -137,17 +157,40 @@
     "cores": 7,
     "sensor": "TCS34727.004",
     "end": [
-      0.0025214739256405353,
-      0.07755560828263504,
-      -0.05616952672844456
+      -0.056389122522782914,
+      0.07755561619779658,
+      0.002741086267546843
     ],
-    "target": "Robot Assembly.221",
+    "target": "Robot Assembly.422",
     "endTangent": [
-      -0.7072649852802719,
+      -0.7072649915141836,
       0,
-      0.7069485416892072
+      0.706948535452505
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "User-confirmed rear pair side; electrical channel labels not supplied",
+    "via": [
+      [
+        -0.007178943974427363,
+        0.029,
+        -0.007147985557647506
+      ],
+      [
+        -0.007178943974427363,
+        0.055,
+        -0.007147985557647506
+      ],
+      [
+        -0.035,
+        0.062,
+        0.007
+      ]
+    ],
+    "routeSide": "white",
+    "parkedEnd": [
+      -0.03838912252278291,
+      0.059,
+      -0.009258913732453158
+    ]
   },
   {
     "id": "jst-TCS34727.005",
@@ -167,17 +210,40 @@
     "cores": 7,
     "sensor": "TCS34727.005",
     "end": [
-      -0.005830180419566786,
-      0.07755560716051647,
-      -0.06452118097196917
+      -0.06474077686799024,
+      0.07755561507567801,
+      -0.005610567975977755
     ],
-    "target": "Robot Assembly.678",
+    "target": "Robot Assembly.368",
     "endTangent": [
-      -0.707264986784566,
+      -0.7072649930184591,
       0,
-      0.7069485401842399
+      0.706948533947556
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "User-confirmed rear pair side; electrical channel labels not supplied",
+    "via": [
+      [
+        -0.01189358818677304,
+        0.029,
+        -0.011862629712591638
+      ],
+      [
+        -0.01189358818677304,
+        0.055,
+        -0.011862629712591638
+      ],
+      [
+        -0.035,
+        0.062,
+        0.007
+      ]
+    ],
+    "routeSide": "white",
+    "parkedEnd": [
+      -0.05874077686799024,
+      0.059,
+      -0.017610567975977754
+    ]
   },
   {
     "id": "jst-TCS34727.006",
@@ -197,17 +263,40 @@
     "cores": 7,
     "sensor": "TCS34727.006",
     "end": [
-      -0.06474077686799024,
-      0.07755561507567801,
-      -0.005610567975977755
+      0.0025214739256405353,
+      0.07755560828263504,
+      -0.05616952672844456
     ],
-    "target": "Robot Assembly.368",
+    "target": "Robot Assembly.221",
     "endTangent": [
-      -0.7072649930184591,
+      -0.7072649852802719,
       0,
-      0.706948533947556
+      0.7069485416892072
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "User-confirmed rear pair side; electrical channel labels not supplied",
+    "via": [
+      [
+        -0.01660823228678538,
+        0.029,
+        -0.016577273755197536
+      ],
+      [
+        -0.01660823228678538,
+        0.055,
+        -0.016577273755197536
+      ],
+      [
+        0.007,
+        0.062,
+        -0.035
+      ]
+    ],
+    "routeSide": "red",
+    "parkedEnd": [
+      -0.021478526074359464,
+      0.059,
+      -0.05016952672844456
+    ]
   },
   {
     "id": "jst-TCS34727.007",
@@ -227,17 +316,40 @@
     "cores": 7,
     "sensor": "TCS34727.007",
     "end": [
-      -0.056389122522782914,
-      0.07755561619779658,
-      0.002741086267546843
+      -0.005830180419566786,
+      0.07755560716051647,
+      -0.06452118097196917
     ],
-    "target": "Robot Assembly.422",
+    "target": "Robot Assembly.678",
     "endTangent": [
-      -0.7072649915141836,
+      -0.707264986784566,
       0,
-      0.706948535452505
+      0.7069485401842399
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "User-confirmed rear pair side; electrical channel labels not supplied",
+    "via": [
+      [
+        -0.021322171846323682,
+        0.029,
+        -0.02129121344640354
+      ],
+      [
+        -0.021322171846323682,
+        0.055,
+        -0.02129121344640354
+      ],
+      [
+        0.007,
+        0.062,
+        -0.035
+      ]
+    ],
+    "routeSide": "red",
+    "parkedEnd": [
+      -0.017830180419566785,
+      0.067,
+      -0.06452118097196917
+    ]
   },
   {
     "id": "jst-TCS34727.008",
@@ -267,7 +379,12 @@
       0,
       0.7072651060716831
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      -0.010890426202772228,
+      0.059,
+      0.040159471296649596
+    ]
   },
   {
     "id": "jst-TCS34727.009",
@@ -297,7 +414,12 @@
       0,
       0.7072651056900695
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      -0.0294460257108776,
+      0.059,
+      0.04671507264617629
+    ]
   },
   {
     "id": "jst-TCS34727.010",
@@ -327,7 +449,12 @@
       0,
       0.707265096385843
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      -0.01855722999544413,
+      0.059,
+      0.06582628061358695
+    ]
   },
   {
     "id": "jst-TCS34727.011",
@@ -357,7 +484,12 @@
       0,
       0.7072651052123441
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      -0.04200162653607191,
+      0.059,
+      0.0832706753127923
+    ]
   },
   {
     "id": "jst-TCS34727.012",
@@ -387,7 +519,12 @@
       0,
       0.7072650942542378
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.058708636828005645,
+      0.059,
+      -0.0297026541455623
+    ]
   },
   {
     "id": "jst-TCS34727.013",
@@ -417,7 +554,12 @@
       0,
       0.7072651035263484
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.04060204611341411,
+      0.059,
+      -0.02959606171567283
+    ]
   },
   {
     "id": "jst-TCS34727.014",
@@ -447,7 +589,12 @@
       0,
       0.7072651019919122
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.046495460667178384,
+      0.059,
+      -0.011489474554140643
+    ]
   },
   {
     "id": "jst-TCS34727.015",
@@ -477,6 +624,11 @@
       0,
       0.7072650991818186
     ],
-    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified"
+    "endpointStatus": "Geometry pairing only; electrical channel mapping unverified",
+    "parkedEnd": [
+      0.028388876538031592,
+      0.059,
+      -0.011382888709697767
+    ]
   }
 ]

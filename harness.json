@@ -4,14 +4,14 @@
     "kind": "dupont",
     "controller": "mc0",
     "start": [
-      -0.031191556765330822,
+      -0.042505265264315584,
       0.048066402406148734,
-      0.04330408648505071
+      0.03199037798606595
     ],
     "startTangent": [
-      -0.7071067811865475,
+      0.7071067811865475,
       0,
-      -0.7071067811865477
+      0.7071067811865477
     ],
     "end": [
       -0.029909159129061978,
@@ -49,7 +49,14 @@
         -37.271804098982514,
         14.54267223229493
       ]
-    ]
+    ],
+    "routeTangent": [
+      0.7071067811865475,
+      0,
+      0.7071067811865475
+    ],
+    "untwisted": true,
+    "pinMappingStatus": "Ribbon order preserved geometrically; electrical pin labels require verification"
   },
   {
     "id": "mc0-power-cable",
@@ -57,15 +64,23 @@
     "controller": "mc0",
     "starts": [
       [
-        -0.03614130423363665,
+        -0.02553470251583844,
         0.04116640240614874,
-        0.03411169832962559
+        0.044718300047423803
       ],
       [
-        -0.03967683813956939,
+        -0.02907023642177118,
         0.04116640240614874,
-        0.03057616442369285
+        0.041182766141491065
       ]
+    ],
+    "startLabels": [
+      "+12V",
+      "GND"
+    ],
+    "wireColors": [
+      "red",
+      "black"
     ],
     "outward": [
       0.7071067811865477,
@@ -73,26 +88,33 @@
       -0.7071067811865475
     ],
     "end": [
-      -0.020739755196643714,
-      0.06816642299364234,
-      0.04740221771573879
+      -0.015662672461067836,
+      0.07556640240614873,
+      0.03220036548842415
     ],
     "endTangent": [
       -0.7071067811865476,
       0,
       -0.7071067811865476
     ],
-    "target": "Robot Assembly.492",
-    "fitStatus": "Mating plane and envelope from original XT30; exact keyed profile pending verification"
+    "target": "Robot Assembly.479",
+    "fitStatus": "Shared keyed mating profile and contact axes",
+    "connectorType": "XT30",
+    "gender": "female",
+    "parkedEnd": [
+      -0.027662672461067836,
+      0.051,
+      0.03220036548842415
+    ]
   },
   {
     "id": "mc1-control-cable",
     "kind": "dupont",
     "controller": "mc1",
     "start": [
-      0.03191764747696275,
+      0.04323135597594751,
       0.048066402406148734,
-      -0.04243308762762526
+      -0.031119379128640497
     ],
     "startTangent": [
       0.7071067811865475,
@@ -159,7 +181,14 @@
         27.70919590101748,
         -24.287327767705072
       ]
-    ]
+    ],
+    "routeTangent": [
+      0.706669957582402,
+      0,
+      0.7075433351042791
+    ],
+    "untwisted": true,
+    "pinMappingStatus": "Ribbon order preserved geometrically; electrical pin labels require verification"
   },
   {
     "id": "mc1-power-cable",
@@ -167,15 +196,23 @@
     "controller": "mc1",
     "starts": [
       [
-        0.03686739494526858,
+        0.02626079322747037,
         0.04116640240614874,
-        -0.03324069947220014
+        -0.043847301189998356
       ],
       [
-        0.04040292885120132,
+        0.029796327133403105,
         0.04116640240614874,
-        -0.029705165566267403
+        -0.04031176728406562
       ]
+    ],
+    "startLabels": [
+      "+12V",
+      "GND"
+    ],
+    "wireColors": [
+      "red",
+      "black"
     ],
     "outward": [
       -0.7071067811865476,
@@ -183,17 +220,24 @@
       0.7071067811865475
     ],
     "end": [
-      0.047314125384808434,
-      0.06816641387078598,
-      -0.02065168072979527
+      0.016553493361406206,
+      0.07556640240614873,
+      -0.031492592799483424
     ],
     "endTangent": [
       0.7071067811865476,
       0,
       0.7071067811865476
     ],
-    "target": "Robot Assembly.759",
-    "fitStatus": "Mating plane and envelope from original XT30; exact keyed profile pending verification"
+    "target": "Robot Assembly.470",
+    "fitStatus": "Shared keyed mating profile and contact axes",
+    "connectorType": "XT30",
+    "gender": "female",
+    "parkedEnd": [
+      0.022553493361406204,
+      0.051,
+      -0.04349259279948342
+    ]
   },
   {
     "id": "motor0-wires",
@@ -334,5 +378,112 @@
       0,
       -0.7071067811865477
     ]
+  },
+  {
+    "id": "switch-white-cable",
+    "kind": "switch",
+    "groupCategory": "pcb",
+    "switch": "switch-white",
+    "starts": [
+      [
+        -0.04208798261520383,
+        0.06637043383896991,
+        0.03132759586578947
+      ],
+      [
+        -0.036665837470666346,
+        0.06637043453664479,
+        0.036874951638570366
+      ]
+    ],
+    "end": [
+      -0.020739755196643714,
+      0.07556640240614873,
+      0.04740221771573879
+    ],
+    "endTangent": [
+      -0.7071067811865476,
+      0,
+      -0.7071067811865476
+    ],
+    "outward": [
+      0,
+      -1,
+      0
+    ],
+    "target": "Robot Assembly.492",
+    "gender": "male",
+    "connectorType": "XT30"
+  },
+  {
+    "id": "switch-red-cable",
+    "kind": "switch",
+    "groupCategory": "pcb",
+    "switch": "switch-red",
+    "starts": [
+      [
+        0.032963801900177045,
+        0.06637042398270104,
+        -0.04203020469902128
+      ],
+      [
+        0.03838594704471453,
+        0.06637042468037592,
+        -0.03648284892624038
+      ]
+    ],
+    "end": [
+      0.047314125384808434,
+      0.07556640240614873,
+      -0.02065168072979527
+    ],
+    "endTangent": [
+      0.7071067811865476,
+      0,
+      0.7071067811865476
+    ],
+    "outward": [
+      0,
+      -1,
+      0
+    ],
+    "target": "Robot Assembly.759",
+    "gender": "male",
+    "connectorType": "XT30"
+  },
+  {
+    "id": "battery-xt60-cable",
+    "kind": "battery",
+    "groupCategory": "pcb",
+    "starts": [
+      [
+        -0.022066642451418813,
+        0.08521640240614874,
+        -0.0654432055737042
+      ],
+      [
+        -0.018531123382219516,
+        0.08521640240614874,
+        -0.061907719169635146
+      ]
+    ],
+    "end": [
+      -0.03899999999999999,
+      0.059,
+      -0.059
+    ],
+    "endTangent": [
+      0.7071067811865476,
+      0,
+      -0.7071067811865476
+    ],
+    "outward": [
+      0,
+      -1,
+      0
+    ],
+    "gender": "male",
+    "connectorType": "XT60",
+    "polarityStatus": "Red plus / black minus shown; PCB pad net assignment requires schematic confirmation"
   }
 ]

@@ -229,7 +229,6 @@
       "Robot Assembly.020",
       "Robot Assembly.021",
       "Robot Assembly.022",
-      "Robot Assembly.023",
       "Robot Assembly.028",
       "Robot Assembly.029",
       "Robot Assembly.032",
@@ -241,7 +240,6 @@
       "Robot Assembly.044",
       "Robot Assembly.045",
       "Robot Assembly.046",
-      "Robot Assembly.047",
       "Robot Assembly.051",
       "Robot Assembly.052",
       "Robot Assembly.059",
@@ -274,7 +272,6 @@
       "Robot Assembly.089",
       "Robot Assembly.094",
       "Robot Assembly.097",
-      "Robot Assembly.098",
       "Robot Assembly.100",
       "Robot Assembly.101",
       "Robot Assembly.102",
@@ -295,7 +292,6 @@
       "Robot Assembly.129",
       "Robot Assembly.130",
       "Robot Assembly.132",
-      "Robot Assembly.134",
       "Robot Assembly.137",
       "Robot Assembly.143",
       "Robot Assembly.144",
@@ -395,7 +391,6 @@
       "Robot Assembly.278",
       "Robot Assembly.281",
       "Robot Assembly.286",
-      "Robot Assembly.287",
       "Robot Assembly.289",
       "Robot Assembly.290",
       "Robot Assembly.291",
@@ -472,7 +467,6 @@
       "Robot Assembly.388",
       "Robot Assembly.389",
       "Robot Assembly.396",
-      "Robot Assembly.398",
       "Robot Assembly.399",
       "Robot Assembly.401",
       "Robot Assembly.403",
@@ -482,7 +476,6 @@
       "Robot Assembly.407",
       "Robot Assembly.409",
       "Robot Assembly.413",
-      "Robot Assembly.415",
       "Robot Assembly.417",
       "Robot Assembly.418",
       "Robot Assembly.419",
@@ -510,28 +503,24 @@
       "Robot Assembly.446",
       "Robot Assembly.448",
       "Robot Assembly.450",
-      "Robot Assembly.451",
       "Robot Assembly.458",
       "Robot Assembly.464",
       "Robot Assembly.467",
       "Robot Assembly.469",
-      "Robot Assembly.470",
       "Robot Assembly.471",
       "Robot Assembly.475",
       "Robot Assembly.477",
       "Robot Assembly.478",
-      "Robot Assembly.479",
       "Robot Assembly.483",
-      "Robot Assembly.484",
       "Robot Assembly.486",
       "Robot Assembly.487",
       "Robot Assembly.488",
       "Robot Assembly.489",
       "Robot Assembly.490",
       "Robot Assembly.491",
-      "Robot Assembly.492",
       "Robot Assembly.494",
       "Robot Assembly.497",
+      "Robot Assembly.499",
       "Robot Assembly.500",
       "Robot Assembly.501",
       "Robot Assembly.502",
@@ -582,7 +571,6 @@
       "Robot Assembly.555",
       "Robot Assembly.556",
       "Robot Assembly.557",
-      "Robot Assembly.559",
       "Robot Assembly.561",
       "Robot Assembly.562",
       "Robot Assembly.563",
@@ -609,7 +597,6 @@
       "Robot Assembly.588",
       "Robot Assembly.589",
       "Robot Assembly.590",
-      "Robot Assembly.591",
       "Robot Assembly.593",
       "Robot Assembly.596",
       "Robot Assembly.597",
@@ -679,7 +666,6 @@
       "Robot Assembly.697",
       "Robot Assembly.698",
       "Robot Assembly.699",
-      "Robot Assembly.701",
       "Robot Assembly.703",
       "Robot Assembly.704",
       "Robot Assembly.705",
@@ -733,7 +719,6 @@
       "Robot Assembly.756",
       "Robot Assembly.757",
       "Robot Assembly.758",
-      "Robot Assembly.759",
       "Robot Assembly.760",
       "Robot Assembly.777",
       "Robot Assembly.788",
@@ -810,6 +795,16 @@
       "Robot Assembly.897",
       "Robot Assembly.898",
       "Robot Assembly.901",
+      "pcb_600",
+      "pcb_601",
+      "pcb_602",
+      "pcb_603",
+      "pcb_604",
+      "pcb_605",
+      "pcb_606",
+      "pcb_607",
+      "pcb_608",
+      "pcb_609",
       "pcb_610",
       "pcb_611",
       "pcb_612",
@@ -910,16 +905,12 @@
       "pcb_707",
       "pcb_708",
       "pcb_709",
-      "pcb_710",
-      "pcb_711",
-      "pcb_712",
-      "pcb_713",
-      "pcb_714",
-      "pcb_715",
-      "pcb_716",
-      "pcb_717",
-      "pcb_718",
-      "pcb_719"
+      "pcb_709",
+      "pcb_709",
+      "pcb_709",
+      "pcb_709",
+      "pcb_709",
+      "pcb_710"
     ],
     "parts": [
       "RoboClass PCB met gesoldeerde componenten"
@@ -927,12 +918,14 @@
   },
   {
     "id": "mux1",
-    "title": "TCA multiplexer 2",
+    "title": "TCA multiplexer 2 · gesoldeerde male headers",
     "category": "pcb",
     "names": [
+      "Robot Assembly.023",
       "Robot Assembly.025",
       "Robot Assembly.031",
       "Robot Assembly.034",
+      "Robot Assembly.098",
       "Robot Assembly.115",
       "Robot Assembly.127",
       "Robot Assembly.161",
@@ -945,29 +938,7 @@
       "Robot Assembly.834"
     ],
     "parts": [
-      "TCA multiplexer 2"
-    ]
-  },
-  {
-    "id": "regulator",
-    "title": "DD4012SA — basisversie",
-    "category": "pcb",
-    "names": [
-      "Robot Assembly.026",
-      "Robot Assembly.027",
-      "Robot Assembly.112",
-      "Robot Assembly.131",
-      "Robot Assembly.166",
-      "Robot Assembly.184",
-      "Robot Assembly.240",
-      "Robot Assembly.254",
-      "Robot Assembly.408",
-      "Robot Assembly.442",
-      "Robot Assembly.449",
-      "Robot Assembly.594"
-    ],
-    "parts": [
-      "DD4012SA — basisversie"
+      "TCA multiplexer 2 · gesoldeerde male headers"
     ]
   },
   {
@@ -1131,7 +1102,8 @@
       "Robot Assembly.040",
       "Robot Assembly.133",
       "Robot Assembly.157",
-      "Robot Assembly.599"
+      "Robot Assembly.599",
+      "us0_4"
     ],
     "parts": [
       "US-016 1"
@@ -1145,7 +1117,8 @@
       "Robot Assembly.042",
       "Robot Assembly.465",
       "Robot Assembly.764",
-      "Robot Assembly.815"
+      "Robot Assembly.815",
+      "us1_4"
     ],
     "parts": [
       "US-016 2"
@@ -1159,10 +1132,56 @@
       "Robot Assembly.043",
       "Robot Assembly.050",
       "Robot Assembly.826",
-      "Robot Assembly.877"
+      "Robot Assembly.877",
+      "us2_4"
     ],
     "parts": [
       "US-016 3"
+    ]
+  },
+  {
+    "id": "mux0",
+    "title": "TCA multiplexer 1 · gesoldeerde male headers",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.047",
+      "Robot Assembly.134",
+      "Robot Assembly.141",
+      "Robot Assembly.148",
+      "Robot Assembly.150",
+      "Robot Assembly.177",
+      "Robot Assembly.185",
+      "Robot Assembly.188",
+      "Robot Assembly.193",
+      "Robot Assembly.242",
+      "Robot Assembly.243",
+      "Robot Assembly.702",
+      "Robot Assembly.833"
+    ],
+    "parts": [
+      "TCA multiplexer 1 · gesoldeerde male headers"
+    ]
+  },
+  {
+    "id": "regulator",
+    "title": "DD4012SA — basisversie",
+    "category": "pcb",
+    "names": [
+      "Robot Assembly.057",
+      "Robot Assembly.093",
+      "Robot Assembly.095",
+      "Robot Assembly.126",
+      "Robot Assembly.140",
+      "Robot Assembly.167",
+      "Robot Assembly.179",
+      "Robot Assembly.400",
+      "Robot Assembly.438",
+      "Robot Assembly.558",
+      "Robot Assembly.613",
+      "regulator_11"
+    ],
+    "parts": [
+      "DD4012SA — basisversie"
     ]
   },
   {
@@ -1173,7 +1192,8 @@
       "Robot Assembly.090",
       "Robot Assembly.485",
       "Robot Assembly.902",
-      "Robot Assembly.903"
+      "Robot Assembly.903",
+      "us3_4"
     ],
     "parts": [
       "US-016 4"
@@ -1292,31 +1312,11 @@
       "Robot Assembly.906",
       "Robot Assembly.908",
       "Robot Assembly.909",
-      "Robot Assembly.910"
+      "Robot Assembly.910",
+      "bno_109"
     ],
     "parts": [
       "BNO055"
-    ]
-  },
-  {
-    "id": "mux0",
-    "title": "TCA multiplexer 1",
-    "category": "pcb",
-    "names": [
-      "Robot Assembly.141",
-      "Robot Assembly.148",
-      "Robot Assembly.150",
-      "Robot Assembly.177",
-      "Robot Assembly.185",
-      "Robot Assembly.188",
-      "Robot Assembly.193",
-      "Robot Assembly.242",
-      "Robot Assembly.243",
-      "Robot Assembly.702",
-      "Robot Assembly.833"
-    ],
-    "parts": [
-      "TCA multiplexer 1"
     ]
   },
   {
@@ -1324,7 +1324,9 @@
     "title": "Witte powerknop",
     "category": "pcb",
     "names": [
-      "small_MA_switch_b"
+      "small_MA_switch_b",
+      "switch-white_1",
+      "switch-white_2"
     ],
     "parts": [
       "Witte powerknop"
@@ -1335,7 +1337,9 @@
     "title": "Rood/zwarte powerknop",
     "category": "pcb",
     "names": [
-      "small_MA_switch_b.001"
+      "small_MA_switch_b.001",
+      "switch-red_1",
+      "switch-red_2"
     ],
     "parts": [
       "Rood/zwarte powerknop"
@@ -1358,7 +1362,16 @@
       "mc0_9",
       "mc0_10",
       "mc0_11",
-      "mc0_12"
+      "mc0_12",
+      "mc0_13",
+      "mc0_14",
+      "mc0_15",
+      "mc0_16",
+      "mc0_17",
+      "mc0_18",
+      "mc0_19",
+      "mc0_20",
+      "mc0_21"
     ],
     "parts": [
       "L298N motorcontroller 1"
@@ -1381,7 +1394,16 @@
       "mc1_9",
       "mc1_10",
       "mc1_11",
-      "mc1_12"
+      "mc1_12",
+      "mc1_13",
+      "mc1_14",
+      "mc1_15",
+      "mc1_16",
+      "mc1_17",
+      "mc1_18",
+      "mc1_19",
+      "mc1_20",
+      "mc1_21"
     ],
     "parts": [
       "L298N motorcontroller 2"
@@ -1638,7 +1660,15 @@
       "pcb-standoffs_4",
       "pcb-standoffs_5",
       "pcb-standoffs_6",
-      "pcb-standoffs_7"
+      "pcb-standoffs_7",
+      "pcb-standoffs_8",
+      "pcb-standoffs_9",
+      "pcb-standoffs_10",
+      "pcb-standoffs_11",
+      "pcb-standoffs_12",
+      "pcb-standoffs_13",
+      "pcb-standoffs_14",
+      "pcb-standoffs_15"
     ],
     "parts": [
       "8× standoff 40 mm"
@@ -1656,10 +1686,14 @@
       "pcb-standoffs-30_4",
       "pcb-standoffs-30_5",
       "pcb-standoffs-30_6",
-      "pcb-standoffs-30_7"
+      "pcb-standoffs-30_7",
+      "pcb-standoffs-30_8",
+      "pcb-standoffs-30_9",
+      "pcb-standoffs-30_10",
+      "pcb-standoffs-30_11"
     ],
     "parts": [
-      "8× standoff 30 mm"
+      "4× standoff 30 mm female–female + 4× male–female"
     ]
   },
   {
@@ -1816,7 +1850,7 @@
   },
   {
     "id": "bumper-standoffs",
-    "title": "Standoff 27 mm",
+    "title": "Standoff 31 mm",
     "category": "mechanical",
     "names": [
       "bumper-standoffs_0",
@@ -1831,12 +1865,10 @@
       "bumper-standoffs_9",
       "bumper-standoffs_10",
       "bumper-standoffs_11",
-      "bumper-standoffs_12",
-      "bumper-standoffs_13",
-      "bumper-standoffs_14"
+      "bumper-standoffs_12"
     ],
     "parts": [
-      "Standoff 27 mm"
+      "Standoff 31 mm"
     ]
   },
   {
@@ -1856,9 +1888,7 @@
       "bumper-standoff-fasteners_9",
       "bumper-standoff-fasteners_10",
       "bumper-standoff-fasteners_11",
-      "bumper-standoff-fasteners_12",
-      "bumper-standoff-fasteners_13",
-      "bumper-standoff-fasteners_14"
+      "bumper-standoff-fasteners_12"
     ],
     "parts": [
       "M3×10 platkop-inbusbout"
@@ -1881,9 +1911,7 @@
       "bumper-fasteners_9",
       "bumper-fasteners_10",
       "bumper-fasteners_11",
-      "bumper-fasteners_12",
-      "bumper-fasteners_13",
-      "bumper-fasteners_14"
+      "bumper-fasteners_12"
     ],
     "parts": [
       "M3×10 platkop-inbusbout"
@@ -2138,6 +2166,32 @@
     ]
   },
   {
+    "id": "ir-tape",
+    "title": "IR-blocker isolatietape · opening vrij",
+    "category": "pcb",
+    "names": [
+      "ir-tape_0",
+      "ir-tape_1",
+      "ir-tape_2",
+      "ir-tape_3",
+      "ir-tape_4",
+      "ir-tape_5",
+      "ir-tape_6",
+      "ir-tape_7",
+      "ir-tape_8",
+      "ir-tape_9",
+      "ir-tape_10",
+      "ir-tape_11",
+      "ir-tape_12",
+      "ir-tape_13",
+      "ir-tape_14",
+      "ir-tape_15"
+    ],
+    "parts": [
+      "IR-blocker isolatietape · opening vrij"
+    ]
+  },
+  {
     "id": "bno-plug",
     "title": "BNO055 uitneembare terminal 8P",
     "category": "pcb",
@@ -2289,6 +2343,39 @@
     ],
     "parts": [
       "1× rode en 1× zwarte motordraad"
+    ]
+  },
+  {
+    "id": "switch-white-cable",
+    "title": "Witte powerknop · male XT30-kabel",
+    "category": "pcb",
+    "names": [
+      "switch-white-cable"
+    ],
+    "parts": [
+      "1× male XT30-kabel"
+    ]
+  },
+  {
+    "id": "switch-red-cable",
+    "title": "Rode powerknop · male XT30-kabel",
+    "category": "pcb",
+    "names": [
+      "switch-red-cable"
+    ],
+    "parts": [
+      "1× male XT30-kabel"
+    ]
+  },
+  {
+    "id": "battery-xt60-cable",
+    "title": "Accuaansluiting · male XT60-kabel",
+    "category": "pcb",
+    "names": [
+      "battery-xt60-cable"
+    ],
+    "parts": [
+      "1× male XT60-pigtail"
     ]
   }
 ]
