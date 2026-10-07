@@ -1,0 +1,6203 @@
+[
+  {
+    "id": "frame",
+    "title": "Basisplaat klaarleggen",
+    "add": [
+      "frame"
+    ],
+    "focus": [
+      "frame"
+    ],
+    "visible": [
+      "frame"
+    ],
+    "instructions": [
+      "Leg de basisplaat klaar en herken de sensoruitsparingen en montagegaten."
+    ],
+    "parts": [
+      "Houten basisplaat"
+    ],
+    "note": "Leg de basisplaat klaar en herken de sensoruitsparingen en montagegaten.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "sensors-place",
+    "title": "16 TCS kleursensoren plaatsen",
+    "add": [
+      "sensors"
+    ],
+    "focus": [
+      "sensors"
+    ],
+    "visible": [
+      "frame",
+      "sensors"
+    ],
+    "instructions": [
+      "Plaats de optische zijde door de uitsparing, naar de vloer gericht.",
+      "Richt de 7P JST-XH-connector naar het robotcentrum.",
+      "Lijn beide gaten van iedere sensor uit.",
+      "Plaats de boutkoppen onder de robot en de borgmoeren boven de sensor.",
+      "Gebruik per sensor twee M3×10 mm platkop-inbusbouten en twee M3-borgmoeren, van hetzelfde type als de overige robotbevestiging."
+    ],
+    "parts": [
+      "TCS kleursensoren · 7P JST-XH"
+    ],
+    "note": "Plaats de optische zijde door de uitsparing, naar de vloer gericht.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "sensors-hardware",
+    "title": "Bevestiging · 16 TCS kleursensoren",
+    "add": [
+      "sensor-fasteners"
+    ],
+    "focus": [
+      "sensor-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "Bevestiging kleursensoren · platkop-inbusbouten en borgmoeren"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "raisedHardware": [
+      "sensor-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "sensors-secure",
+    "title": "16 TCS kleursensoren vastzetten",
+    "add": [],
+    "focus": [
+      "sensors",
+      "sensor-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "sensor-cables",
+    "title": "JST-kabels aan kleursensoren",
+    "add": [
+      "sensor-cables"
+    ],
+    "focus": [
+      "sensor-cables"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables"
+    ],
+    "instructions": [
+      "Sluit één uiteinde van elke dubbelzijdige 7P JST-XH-kabel op een kleursensor aan.",
+      "Houd de vrije uiteinden beschikbaar voor de PCB; plaats later geen tweede kabel."
+    ],
+    "parts": [
+      "16× 7P JST-XH ribbonkabel"
+    ],
+    "note": "Sluit één uiteinde van elke dubbelzijdige 7P JST-XH-kabel op een kleursensor aan.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket0-place",
+    "title": "Motorbracket 1 plaatsen",
+    "add": [
+      "bracket0"
+    ],
+    "focus": [
+      "bracket0"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0"
+    ],
+    "instructions": [
+      "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+      "Steek de M3-bouten van onderaf in; de borgmoeren komen boven op het frame."
+    ],
+    "parts": [
+      "Motorbracket 1"
+    ],
+    "note": "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket0-hardware",
+    "title": "Bevestiging · Motorbracket 1",
+    "add": [
+      "bracket0-fasteners"
+    ],
+    "focus": [
+      "bracket0-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "raisedHardware": [
+      "bracket0-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket0-secure",
+    "title": "Motorbracket 1 vastzetten",
+    "add": [],
+    "focus": [
+      "bracket0",
+      "bracket0-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket1-place",
+    "title": "Motorbracket 2 plaatsen",
+    "add": [
+      "bracket1"
+    ],
+    "focus": [
+      "bracket1"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1"
+    ],
+    "instructions": [
+      "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+      "Steek de M3-bouten van onderaf in; de borgmoeren komen boven op het frame."
+    ],
+    "parts": [
+      "Motorbracket 2"
+    ],
+    "note": "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket1-hardware",
+    "title": "Bevestiging · Motorbracket 2",
+    "add": [
+      "bracket1-fasteners"
+    ],
+    "focus": [
+      "bracket1-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "raisedHardware": [
+      "bracket1-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket1-secure",
+    "title": "Motorbracket 2 vastzetten",
+    "add": [],
+    "focus": [
+      "bracket1",
+      "bracket1-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket2-place",
+    "title": "Motorbracket 3 plaatsen",
+    "add": [
+      "bracket2"
+    ],
+    "focus": [
+      "bracket2"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2"
+    ],
+    "instructions": [
+      "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+      "Steek de M3-bouten van onderaf in; de borgmoeren komen boven op het frame."
+    ],
+    "parts": [
+      "Motorbracket 3"
+    ],
+    "note": "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket2-hardware",
+    "title": "Bevestiging · Motorbracket 3",
+    "add": [
+      "bracket2-fasteners"
+    ],
+    "focus": [
+      "bracket2-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "raisedHardware": [
+      "bracket2-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket2-secure",
+    "title": "Motorbracket 3 vastzetten",
+    "add": [],
+    "focus": [
+      "bracket2",
+      "bracket2-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket3-place",
+    "title": "Motorbracket 4 plaatsen",
+    "add": [
+      "bracket3"
+    ],
+    "focus": [
+      "bracket3"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3"
+    ],
+    "instructions": [
+      "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+      "Steek de M3-bouten van onderaf in; de borgmoeren komen boven op het frame."
+    ],
+    "parts": [
+      "Motorbracket 4"
+    ],
+    "note": "Plaats de bracket aan de onderzijde van de basisplaat, met de gaten tegenover elkaar.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket3-hardware",
+    "title": "Bevestiging · Motorbracket 4",
+    "add": [
+      "bracket3-fasteners"
+    ],
+    "focus": [
+      "bracket3-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "raisedHardware": [
+      "bracket3-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bracket3-secure",
+    "title": "Motorbracket 4 vastzetten",
+    "add": [],
+    "focus": [
+      "bracket3",
+      "bracket3-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 10 mm · platkop-inbusbout",
+      "length": 10,
+      "usage": "Motorbracket → frame",
+      "bin": "A3",
+      "warning": "De 8 mm-variant hoort uitsluitend bij motor → bracket."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor0-place",
+    "title": "Aandrijfmotor 1 plaatsen",
+    "add": [
+      "motor0"
+    ],
+    "focus": [
+      "motor0"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0"
+    ],
+    "instructions": [
+      "Lijn de motoras en de twee bevestigingsgaten met de bracket uit."
+    ],
+    "parts": [
+      "JGA25-370 DC-motor 600 RPM · 1"
+    ],
+    "note": "Lijn de motoras en de twee bevestigingsgaten met de bracket uit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor0-hardware",
+    "title": "Bevestiging · Aandrijfmotor 1",
+    "add": [
+      "motor-bracket0-fasteners"
+    ],
+    "focus": [
+      "motor-bracket0-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "raisedHardware": [
+      "motor-bracket0-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor0-secure",
+    "title": "Aandrijfmotor 1 vastzetten",
+    "add": [],
+    "focus": [
+      "motor0",
+      "motor-bracket0-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor0-wires",
+    "title": "Motordraden voorbereiden · 1",
+    "add": [
+      "motor0-wires"
+    ],
+    "focus": [
+      "motor0",
+      "motor0-wires"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires"
+    ],
+    "instructions": [
+      "Controleer de rode en zwarte motordraad.",
+      "Houd de vrije uiteinden beschikbaar voor de motoruitgangen van de L298N."
+    ],
+    "parts": [
+      "Motorkabels rood/zwart · motor 1"
+    ],
+    "note": "Controleer de rode en zwarte motordraad.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor1-place",
+    "title": "Aandrijfmotor 2 plaatsen",
+    "add": [
+      "motor1"
+    ],
+    "focus": [
+      "motor1"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1"
+    ],
+    "instructions": [
+      "Lijn de motoras en de twee bevestigingsgaten met de bracket uit."
+    ],
+    "parts": [
+      "JGA25-370 DC-motor 600 RPM · 2"
+    ],
+    "note": "Lijn de motoras en de twee bevestigingsgaten met de bracket uit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor1-hardware",
+    "title": "Bevestiging · Aandrijfmotor 2",
+    "add": [
+      "motor-bracket1-fasteners"
+    ],
+    "focus": [
+      "motor-bracket1-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "raisedHardware": [
+      "motor-bracket1-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor1-secure",
+    "title": "Aandrijfmotor 2 vastzetten",
+    "add": [],
+    "focus": [
+      "motor1",
+      "motor-bracket1-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor1-wires",
+    "title": "Motordraden voorbereiden · 2",
+    "add": [
+      "motor1-wires"
+    ],
+    "focus": [
+      "motor1",
+      "motor1-wires"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires"
+    ],
+    "instructions": [
+      "Controleer de rode en zwarte motordraad.",
+      "Houd de vrije uiteinden beschikbaar voor de motoruitgangen van de L298N."
+    ],
+    "parts": [
+      "Motorkabels rood/zwart · motor 2"
+    ],
+    "note": "Controleer de rode en zwarte motordraad.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor2-place",
+    "title": "Aandrijfmotor 3 plaatsen",
+    "add": [
+      "motor2"
+    ],
+    "focus": [
+      "motor2"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2"
+    ],
+    "instructions": [
+      "Lijn de motoras en de twee bevestigingsgaten met de bracket uit."
+    ],
+    "parts": [
+      "JGA25-370 DC-motor 600 RPM · 3"
+    ],
+    "note": "Lijn de motoras en de twee bevestigingsgaten met de bracket uit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor2-hardware",
+    "title": "Bevestiging · Aandrijfmotor 3",
+    "add": [
+      "motor-bracket3-fasteners"
+    ],
+    "focus": [
+      "motor-bracket3-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "raisedHardware": [
+      "motor-bracket3-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor2-secure",
+    "title": "Aandrijfmotor 3 vastzetten",
+    "add": [],
+    "focus": [
+      "motor2",
+      "motor-bracket3-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor2-wires",
+    "title": "Motordraden voorbereiden · 3",
+    "add": [
+      "motor2-wires"
+    ],
+    "focus": [
+      "motor2",
+      "motor2-wires"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires"
+    ],
+    "instructions": [
+      "Controleer de rode en zwarte motordraad.",
+      "Houd de vrije uiteinden beschikbaar voor de motoruitgangen van de L298N."
+    ],
+    "parts": [
+      "Motorkabels rood/zwart · motor 3"
+    ],
+    "note": "Controleer de rode en zwarte motordraad.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor3-place",
+    "title": "Aandrijfmotor 4 plaatsen",
+    "add": [
+      "motor3"
+    ],
+    "focus": [
+      "motor3"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3"
+    ],
+    "instructions": [
+      "Lijn de motoras en de twee bevestigingsgaten met de bracket uit."
+    ],
+    "parts": [
+      "JGA25-370 DC-motor 600 RPM · 4"
+    ],
+    "note": "Lijn de motoras en de twee bevestigingsgaten met de bracket uit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor3-hardware",
+    "title": "Bevestiging · Aandrijfmotor 4",
+    "add": [
+      "motor-bracket2-fasteners"
+    ],
+    "focus": [
+      "motor-bracket2-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×8 platkop-inbusbout · motor"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "raisedHardware": [
+      "motor-bracket2-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor3-secure",
+    "title": "Aandrijfmotor 4 vastzetten",
+    "add": [],
+    "focus": [
+      "motor3",
+      "motor-bracket2-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "hardware": {
+      "label": "M3 × 8 mm · platkop-inbusbout",
+      "length": 8,
+      "usage": "Uitsluitend motor → bracket",
+      "bin": "A2",
+      "warning": "Gebruik hier geen 10 mm-bouten."
+    },
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "motor3-wires",
+    "title": "Motordraden voorbereiden · 4",
+    "add": [
+      "motor3-wires"
+    ],
+    "focus": [
+      "motor3",
+      "motor3-wires"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires"
+    ],
+    "instructions": [
+      "Controleer de rode en zwarte motordraad.",
+      "Houd de vrije uiteinden beschikbaar voor de motoruitgangen van de L298N."
+    ],
+    "parts": [
+      "Motorkabels rood/zwart · motor 4"
+    ],
+    "note": "Controleer de rode en zwarte motordraad.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel0-coupler",
+    "title": "Omniwiel 1 voorbereiden",
+    "add": [],
+    "focus": [
+      "motor1"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires"
+    ],
+    "instructions": [
+      "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+      "Houd de borgschroef bereikbaar.",
+      "Dit Omniwiel komt op aandrijfmotor 2."
+    ],
+    "parts": [],
+    "note": "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+    "mountedMotor": "motor1",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel0",
+    "title": "Omniwiel 1 plaatsen",
+    "add": [
+      "wheel0"
+    ],
+    "focus": [
+      "motor1",
+      "wheel0"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0"
+    ],
+    "instructions": [
+      "Schuif de koppeling op de as van aandrijfmotor 2."
+    ],
+    "parts": [
+      "Omniwiel 1"
+    ],
+    "note": "Schuif de koppeling op de as van aandrijfmotor 2.",
+    "mountedMotor": "motor1",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel0-secure",
+    "title": "Omniwiel 1 vastzetten",
+    "add": [],
+    "focus": [
+      "motor1",
+      "wheel0"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0"
+    ],
+    "instructions": [
+      "Zet de borgschroef vast op het vlakke deel van de motoras.",
+      "Controleer dat het Omniwiel vrij draait."
+    ],
+    "parts": [],
+    "note": "Zet de borgschroef vast op het vlakke deel van de motoras.",
+    "mountedMotor": "motor1",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel1-coupler",
+    "title": "Omniwiel 2 voorbereiden",
+    "add": [],
+    "focus": [
+      "motor3"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0"
+    ],
+    "instructions": [
+      "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+      "Houd de borgschroef bereikbaar.",
+      "Dit Omniwiel komt op aandrijfmotor 4."
+    ],
+    "parts": [],
+    "note": "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+    "mountedMotor": "motor3",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel1",
+    "title": "Omniwiel 2 plaatsen",
+    "add": [
+      "wheel1"
+    ],
+    "focus": [
+      "motor3",
+      "wheel1"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1"
+    ],
+    "instructions": [
+      "Schuif de koppeling op de as van aandrijfmotor 4."
+    ],
+    "parts": [
+      "Omniwiel 2"
+    ],
+    "note": "Schuif de koppeling op de as van aandrijfmotor 4.",
+    "mountedMotor": "motor3",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel1-secure",
+    "title": "Omniwiel 2 vastzetten",
+    "add": [],
+    "focus": [
+      "motor3",
+      "wheel1"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1"
+    ],
+    "instructions": [
+      "Zet de borgschroef vast op het vlakke deel van de motoras.",
+      "Controleer dat het Omniwiel vrij draait."
+    ],
+    "parts": [],
+    "note": "Zet de borgschroef vast op het vlakke deel van de motoras.",
+    "mountedMotor": "motor3",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel2-coupler",
+    "title": "Omniwiel 3 voorbereiden",
+    "add": [],
+    "focus": [
+      "motor2"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1"
+    ],
+    "instructions": [
+      "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+      "Houd de borgschroef bereikbaar.",
+      "Dit Omniwiel komt op aandrijfmotor 3."
+    ],
+    "parts": [],
+    "note": "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+    "mountedMotor": "motor2",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel2",
+    "title": "Omniwiel 3 plaatsen",
+    "add": [
+      "wheel2"
+    ],
+    "focus": [
+      "motor2",
+      "wheel2"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2"
+    ],
+    "instructions": [
+      "Schuif de koppeling op de as van aandrijfmotor 3."
+    ],
+    "parts": [
+      "Omniwiel 3"
+    ],
+    "note": "Schuif de koppeling op de as van aandrijfmotor 3.",
+    "mountedMotor": "motor2",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel2-secure",
+    "title": "Omniwiel 3 vastzetten",
+    "add": [],
+    "focus": [
+      "motor2",
+      "wheel2"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2"
+    ],
+    "instructions": [
+      "Zet de borgschroef vast op het vlakke deel van de motoras.",
+      "Controleer dat het Omniwiel vrij draait."
+    ],
+    "parts": [],
+    "note": "Zet de borgschroef vast op het vlakke deel van de motoras.",
+    "mountedMotor": "motor2",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel3-coupler",
+    "title": "Omniwiel 4 voorbereiden",
+    "add": [],
+    "focus": [
+      "motor0"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2"
+    ],
+    "instructions": [
+      "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+      "Houd de borgschroef bereikbaar.",
+      "Dit Omniwiel komt op aandrijfmotor 1."
+    ],
+    "parts": [],
+    "note": "Monteer de omniwiel-koppeling volgens de wielconstructie.",
+    "mountedMotor": "motor0",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel3",
+    "title": "Omniwiel 4 plaatsen",
+    "add": [
+      "wheel3"
+    ],
+    "focus": [
+      "motor0",
+      "wheel3"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3"
+    ],
+    "instructions": [
+      "Schuif de koppeling op de as van aandrijfmotor 1."
+    ],
+    "parts": [
+      "Omniwiel 4"
+    ],
+    "note": "Schuif de koppeling op de as van aandrijfmotor 1.",
+    "mountedMotor": "motor0",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "wheel3-secure",
+    "title": "Omniwiel 4 vastzetten",
+    "add": [],
+    "focus": [
+      "motor0",
+      "wheel3"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3"
+    ],
+    "instructions": [
+      "Zet de borgschroef vast op het vlakke deel van de motoras.",
+      "Controleer dat het Omniwiel vrij draait."
+    ],
+    "parts": [],
+    "note": "Zet de borgschroef vast op het vlakke deel van de motoras.",
+    "mountedMotor": "motor0",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-standoffs-place",
+    "title": "20 mm standoffs · L298N 1 plaatsen",
+    "add": [
+      "mc0-standoffs"
+    ],
+    "focus": [
+      "mc0-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs"
+    ],
+    "instructions": [
+      "Plaats alleen de standoffs voor deze motorcontroller.",
+      "Controleer de 20 mm hoogte."
+    ],
+    "parts": [
+      "Standoff 20 mm"
+    ],
+    "note": "Vier 20 mm standoffs, uitgelijnd op de framegaten.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-standoffs-hardware",
+    "title": "Bevestiging · 20 mm standoffs · L298N 1",
+    "add": [
+      "mc0-standoff-fasteners"
+    ],
+    "focus": [
+      "mc0-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Vier 20 mm standoffs, uitgelijnd op de framegaten.",
+    "raisedHardware": [
+      "mc0-standoff-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-standoffs-secure",
+    "title": "20 mm standoffs · L298N 1 vastzetten",
+    "add": [],
+    "focus": [
+      "mc0-standoffs",
+      "mc0-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Vier 20 mm standoffs, uitgelijnd op de framegaten.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-power",
+    "title": "Voedingskabel · losse L298N 1",
+    "add": [
+      "mc0",
+      "mc0-power-cable"
+    ],
+    "focus": [
+      "mc0",
+      "mc0-power-cable"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable"
+    ],
+    "instructions": [
+      "Houd de controller los terwijl je de XT30-voedingskabel aansluit.",
+      "Houd het zwarte koelblok boven en de aansluitrij onder, zoals op de foto.",
+      "Van links naar rechts: +12V, GND, +5V.",
+      "Sluit de RODE draad aan op +12V (linker klem).",
+      "Sluit de ZWARTE draad aan op GND (middelste klem). Laat +5V (rechts) vrij.",
+      "Gebruik hiervoor niet de twee-polige motoruitgangen."
+    ],
+    "parts": [
+      "L298N motorcontroller 1",
+      "XT30 female kabel · L298N 1"
+    ],
+    "note": "Sluit rood op +12V en zwart op GND aan; laat +5V vrij.",
+    "looseController": "mc0",
+    "wiring": "l298n-power",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-place",
+    "title": "L298N 1 op standoffs plaatsen",
+    "add": [],
+    "focus": [
+      "mc0"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable"
+    ],
+    "instructions": [
+      "Plaats de controller recht op zijn 20 mm standoffs."
+    ],
+    "parts": [],
+    "note": "Plaats de controller recht op zijn 20 mm standoffs.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-hardware",
+    "title": "Bevestiging · L298N 1",
+    "add": [
+      "mc0-fasteners"
+    ],
+    "focus": [
+      "mc0-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners"
+    ],
+    "instructions": [
+      "Breng de bevestigingen door de vier controllergaten aan."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Breng de bevestigingen door de vier controllergaten aan.",
+    "raisedHardware": [
+      "mc0-fasteners"
+    ],
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-secure",
+    "title": "L298N 1 vastzetten",
+    "add": [],
+    "focus": [
+      "mc0",
+      "mc0-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners"
+    ],
+    "instructions": [
+      "Zet de controller vast voordat de motordraden worden aangesloten."
+    ],
+    "parts": [],
+    "note": "Zet de controller vast voordat de motordraden worden aangesloten.",
+    "motorOutputs": [],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc0-outputs",
+    "title": "Motordraden op L298N 1",
+    "add": [],
+    "focus": [
+      "mc0",
+      "motor2-wires",
+      "motor3-wires"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners"
+    ],
+    "instructions": [
+      "Sluit iedere rode/zwarte motordraad aan op het bijbehorende paar motoruitgangen.",
+      "Gebruik de uitgangen OUT1/OUT2 en OUT3/OUT4; verwar deze niet met de voedingsingang.",
+      "Laat speling in de kabels en houd de wielen vrij."
+    ],
+    "parts": [],
+    "note": "Sluit iedere rode/zwarte motordraad aan op het bijbehorende paar motoruitgangen.",
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-standoffs-place",
+    "title": "20 mm standoffs · L298N 2 plaatsen",
+    "add": [
+      "mc1-standoffs"
+    ],
+    "focus": [
+      "mc1-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs"
+    ],
+    "instructions": [
+      "Plaats alleen de standoffs voor deze motorcontroller.",
+      "Controleer de 20 mm hoogte."
+    ],
+    "parts": [
+      "Standoff 20 mm"
+    ],
+    "note": "Vier 20 mm standoffs, uitgelijnd op de framegaten.",
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-standoffs-hardware",
+    "title": "Bevestiging · 20 mm standoffs · L298N 2",
+    "add": [
+      "mc1-standoff-fasteners"
+    ],
+    "focus": [
+      "mc1-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Vier 20 mm standoffs, uitgelijnd op de framegaten.",
+    "raisedHardware": [
+      "mc1-standoff-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-standoffs-secure",
+    "title": "20 mm standoffs · L298N 2 vastzetten",
+    "add": [],
+    "focus": [
+      "mc1-standoffs",
+      "mc1-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Vier 20 mm standoffs, uitgelijnd op de framegaten.",
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-power",
+    "title": "Voedingskabel · losse L298N 2",
+    "add": [
+      "mc1",
+      "mc1-power-cable"
+    ],
+    "focus": [
+      "mc1",
+      "mc1-power-cable"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable"
+    ],
+    "instructions": [
+      "Houd de controller los terwijl je de XT30-voedingskabel aansluit.",
+      "Houd het zwarte koelblok boven en de aansluitrij onder, zoals op de foto.",
+      "Van links naar rechts: +12V, GND, +5V.",
+      "Sluit de RODE draad aan op +12V (linker klem).",
+      "Sluit de ZWARTE draad aan op GND (middelste klem). Laat +5V (rechts) vrij.",
+      "Gebruik hiervoor niet de twee-polige motoruitgangen."
+    ],
+    "parts": [
+      "L298N motorcontroller 2",
+      "XT30 female kabel · L298N 2"
+    ],
+    "note": "Sluit rood op +12V en zwart op GND aan; laat +5V vrij.",
+    "looseController": "mc1",
+    "wiring": "l298n-power",
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-place",
+    "title": "L298N 2 op standoffs plaatsen",
+    "add": [],
+    "focus": [
+      "mc1"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable"
+    ],
+    "instructions": [
+      "Plaats de controller recht op zijn 20 mm standoffs."
+    ],
+    "parts": [],
+    "note": "Plaats de controller recht op zijn 20 mm standoffs.",
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-hardware",
+    "title": "Bevestiging · L298N 2",
+    "add": [
+      "mc1-fasteners"
+    ],
+    "focus": [
+      "mc1-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners"
+    ],
+    "instructions": [
+      "Breng de bevestigingen door de vier controllergaten aan."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Breng de bevestigingen door de vier controllergaten aan.",
+    "raisedHardware": [
+      "mc1-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-secure",
+    "title": "L298N 2 vastzetten",
+    "add": [],
+    "focus": [
+      "mc1",
+      "mc1-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners"
+    ],
+    "instructions": [
+      "Zet de controller vast voordat de motordraden worden aangesloten."
+    ],
+    "parts": [],
+    "note": "Zet de controller vast voordat de motordraden worden aangesloten.",
+    "motorOutputs": [
+      "mc0"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "mc1-outputs",
+    "title": "Motordraden op L298N 2",
+    "add": [],
+    "focus": [
+      "mc1",
+      "motor0-wires",
+      "motor1-wires"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners"
+    ],
+    "instructions": [
+      "Sluit iedere rode/zwarte motordraad aan op het bijbehorende paar motoruitgangen.",
+      "Gebruik de uitgangen OUT1/OUT2 en OUT3/OUT4; verwar deze niet met de voedingsingang.",
+      "Laat speling in de kabels en houd de wielen vrij."
+    ],
+    "parts": [],
+    "note": "Sluit iedere rode/zwarte motordraad aan op het bijbehorende paar motoruitgangen.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bumper-standoffs-place",
+    "title": "Bumperstandoffs plaatsen",
+    "add": [
+      "bumper-standoffs"
+    ],
+    "focus": [
+      "bumper-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs"
+    ],
+    "instructions": [
+      "Plaats de bumperstandoffs op de bijbehorende gaten."
+    ],
+    "parts": [
+      "Standoff 31 mm"
+    ],
+    "note": "Plaats de bumperstandoffs op de bijbehorende gaten.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bumper-standoffs-hardware",
+    "title": "Bevestiging · Bumperstandoffs",
+    "add": [
+      "bumper-standoff-fasteners"
+    ],
+    "focus": [
+      "bumper-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "raisedHardware": [
+      "bumper-standoff-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bumper-standoffs-secure",
+    "title": "Bumperstandoffs vastzetten",
+    "add": [],
+    "focus": [
+      "bumper-standoffs",
+      "bumper-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bumper-place",
+    "title": "Bumpers plaatsen",
+    "add": [
+      "bumper"
+    ],
+    "focus": [
+      "bumper"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper"
+    ],
+    "instructions": [
+      "Plaats de vier houten bumperdelen op de voorbereide standoffs."
+    ],
+    "parts": [
+      "Houten bumpers"
+    ],
+    "note": "Plaats de vier houten bumperdelen op de voorbereide standoffs.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bumper-hardware",
+    "title": "Bevestiging · Bumpers",
+    "add": [
+      "bumper-fasteners"
+    ],
+    "focus": [
+      "bumper-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "raisedHardware": [
+      "bumper-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "bumper-secure",
+    "title": "Bumpers vastzetten",
+    "add": [],
+    "focus": [
+      "bumper",
+      "bumper-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-standoffs-place",
+    "title": "Batterijhouderstandoffs · 20 mm plaatsen",
+    "add": [
+      "battery-standoffs"
+    ],
+    "focus": [
+      "battery-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs"
+    ],
+    "instructions": [
+      "Plaats vier standoffs van 20 mm op de vier bijbehorende gaten.",
+      "Gebruik hetzelfde type 20 mm-standoff als voor de motorcontrollers."
+    ],
+    "parts": [
+      "Batterijhouder · 20 mm standoffs"
+    ],
+    "note": "Plaats vier standoffs van 20 mm op de vier bijbehorende gaten.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-standoffs-hardware",
+    "title": "Bevestiging · Batterijhouderstandoffs · 20 mm",
+    "add": [
+      "battery-standoff-fasteners"
+    ],
+    "focus": [
+      "battery-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "Bevestiging batterijhouderstandoffs"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "raisedHardware": [
+      "battery-standoff-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-standoffs-secure",
+    "title": "Batterijhouderstandoffs · 20 mm vastzetten",
+    "add": [],
+    "focus": [
+      "battery-standoffs",
+      "battery-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-place",
+    "title": "Batterijhouder plaatsen",
+    "add": [
+      "battery"
+    ],
+    "focus": [
+      "battery"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery"
+    ],
+    "instructions": [
+      "Plaats de houten batterijhouder op de vier 20 mm-standoffs.",
+      "Lijn de vier buitenste gaten uit en laat de twee middelste gaten vrij."
+    ],
+    "parts": [
+      "Houten batterijhouder"
+    ],
+    "note": "Plaats de houten batterijhouder op de vier 20 mm-standoffs.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-hardware",
+    "title": "Bevestiging · Batterijhouder",
+    "add": [
+      "battery-fasteners"
+    ],
+    "focus": [
+      "battery-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "Bevestiging batterijhouder"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "raisedHardware": [
+      "battery-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-secure",
+    "title": "Batterijhouder vastzetten",
+    "add": [],
+    "focus": [
+      "battery",
+      "battery-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-standoffs-place",
+    "title": "PCB-standoffs · 40 mm plaatsen",
+    "add": [
+      "pcb-standoffs"
+    ],
+    "focus": [
+      "pcb-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs"
+    ],
+    "instructions": [
+      "Plaats de acht onderste standoffs van 40 mm op de PCB-montagegaten."
+    ],
+    "parts": [
+      "PCB-standoffs · onderste delen 40 mm"
+    ],
+    "note": "Plaats de acht onderste standoffs van 40 mm op de PCB-montagegaten.",
+    "pcbLoose": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-standoffs-hardware",
+    "title": "Bevestiging · PCB-standoffs · 40 mm",
+    "add": [
+      "pcb-standoff-fasteners"
+    ],
+    "focus": [
+      "pcb-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "pcbLoose": true,
+    "raisedHardware": [
+      "pcb-standoff-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-standoffs-secure",
+    "title": "PCB-standoffs · 40 mm vastzetten",
+    "add": [],
+    "focus": [
+      "pcb-standoffs",
+      "pcb-standoff-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "pcbLoose": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-standoffs-30-place",
+    "title": "PCB-standoffs · 30 mm toevoegen",
+    "add": [
+      "pcb-standoffs-30"
+    ],
+    "focus": [
+      "pcb-standoffs-30"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30"
+    ],
+    "instructions": [
+      "Gebruik vier 30 mm male–female-standoffs op de doorgaande handgreepposities.",
+      "Gebruik op de andere vier PCB-bevestigingspunten 30 mm female–female-standoffs; daarin komen later de PCB-bouten.",
+      "De standoffcombinatie zelf is 70 mm hoog. Daarboven komt een M3-ring die de PCB beschermt."
+    ],
+    "parts": [
+      "PCB-standoffs · bovenste delen 30 mm"
+    ],
+    "note": "Gebruik vier 30 mm male–female-standoffs op de doorgaande handgreepposities.",
+    "pcbLoose": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-standoffs-30-secure",
+    "title": "PCB-standoffcombinaties vastzetten",
+    "add": [],
+    "focus": [
+      "pcb-standoffs",
+      "pcb-standoffs-30"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30"
+    ],
+    "instructions": [
+      "Zet de twee delen stevig aan elkaar vast en controleer dat alle acht combinaties even hoog zijn."
+    ],
+    "parts": [],
+    "note": "Zet de twee delen stevig aan elkaar vast en controleer dat alle acht combinaties even hoog zijn.",
+    "pcbLoose": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-washers-bottom",
+    "title": "M3-ringen onder de PCB",
+    "add": [
+      "pcb-washers-bottom"
+    ],
+    "focus": [
+      "pcb-washers-bottom"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom"
+    ],
+    "instructions": [
+      "Leg op elk van de acht onderste standoffcombinaties een M3-ring.",
+      "De PCB rust op de ringen en maakt zo geen direct contact met de metalen standoffs."
+    ],
+    "parts": [
+      "M3-ringen onder de PCB"
+    ],
+    "note": "Leg op elk van de acht onderste standoffcombinaties een M3-ring.",
+    "pcbLoose": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-ready",
+    "title": "Voorbereide PCB klaarleggen",
+    "add": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable"
+    ],
+    "focus": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable"
+    ],
+    "instructions": [
+      "Gebruik de complete PCB uit het onderdeel 2: PCB-montage.",
+      "Modules, IR-blockers met tape, powerknoppen en accukabel zijn al voorbereid.",
+      "Houd de PCB boven het frame voor de moeilijk bereikbare kabelverbindingen."
+    ],
+    "parts": [
+      "RoboClass PCB met gesoldeerde componenten",
+      "Arduino Due",
+      "TCA multiplexer · 1",
+      "TCA multiplexer · 2",
+      "8P screw terminal · BNO055",
+      "BNO055 oriëntatiesensor",
+      "4P screw terminal · US-016 1",
+      "US-016 afstandssensor · 1",
+      "4P screw terminal · US-016 2",
+      "US-016 afstandssensor · 2",
+      "4P screw terminal · US-016 3",
+      "US-016 afstandssensor · 3",
+      "4P screw terminal · US-016 4",
+      "US-016 afstandssensor · 4",
+      "3P screw terminal · regulator",
+      "3,3 V / 1 A regulator · DD4012SA",
+      "IR-blockers · houten delen met inkeping 1",
+      "IR-blockers · houten delen met inkeping 2",
+      "IR-blockers · houten sluitdelen",
+      "M2×18 bouten + M2-ringen",
+      "M2-borgmoeren",
+      "Zwarte isolatietape · IR-blockers",
+      "Witte powerknop",
+      "XT30 male kabel · witte powerknop",
+      "Rood/zwarte powerknop",
+      "XT30 male kabel · rood/zwarte powerknop",
+      "XT60 batterijkabel"
+    ],
+    "note": "Gebruik de complete PCB uit het onderdeel 2: PCB-montage.",
+    "pcbLoose": true,
+    "preparedPcb": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "prepcb-jst",
+    "title": "Vrije JST-uiteinden op PCB",
+    "add": [],
+    "focus": [
+      "sensor-cables"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable"
+    ],
+    "instructions": [
+      "Sluit de vrije uiteinden van de al geplaatste sensorkabels aan op de juiste PCB-connectoren.",
+      "Houd de PCB los voor bereikbaarheid. Gebruik dezelfde zestien kabels.",
+      "Bij de vier achterste sensoren gaan de twee voorste naar rechts (witte knop) en de twee achterste naar links (rode knop)."
+    ],
+    "parts": [],
+    "note": "Volg de getoonde kabelroutes en bijbehorende PCB-connectoren.",
+    "pcbLoose": true,
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "prepcb-dupont",
+    "title": "6P Dupont vóór PCB-montage",
+    "add": [
+      "mc0-control-cable",
+      "mc1-control-cable"
+    ],
+    "focus": [
+      "mc0-control-cable",
+      "mc1-control-cable"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable"
+    ],
+    "instructions": [
+      "Verbind een 6P female-female kabel met de 6P male header van elke motorcontroller.",
+      "Voer de kabel door de daarvoor bedoelde PCB-sleuf naar boven.",
+      "Sluit de andere zijde aan op de bijbehorende 6P male header boven op de PCB."
+    ],
+    "parts": [
+      "6P female-female Dupont kabel · L298N 1",
+      "6P female-female Dupont kabel · L298N 2"
+    ],
+    "note": "Elke kabel gaat door zijn PCB-sleuf naar de zespolige pinrij.",
+    "pcbLoose": true,
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "prepcb-xt30",
+    "title": "XT30 op onderzijde PCB",
+    "add": [],
+    "focus": [
+      "mc0-power-cable",
+      "mc1-power-cable"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable"
+    ],
+    "instructions": [
+      "Sluit de female XT30-kabelstekker van iedere motorcontroller aan op de bijbehorende male XT30 onder de PCB.",
+      "Gebruik hiervoor niet de female XT30-aansluiting naast de powerknop.",
+      "Controleer polariteit, stekkerpassing en voldoende speling."
+    ],
+    "parts": [],
+    "note": "Male PCB-contacten en female kabelcontacten liggen op dezelfde assen; forceer de stekker niet.",
+    "pcbLoose": true,
+    "cableStage": "pcb",
+    "xt30Connected": true,
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-place",
+    "title": "Voorbereide PCB op standoffs",
+    "add": [],
+    "focus": [
+      "pcb",
+      "mux1",
+      "due",
+      "us0",
+      "us1",
+      "us2",
+      "mux0",
+      "regulator",
+      "us3",
+      "bno",
+      "switch-white",
+      "switch-red",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "bno-plug",
+      "us0-plug",
+      "us1-plug",
+      "us2-plug",
+      "us3-plug",
+      "regulator-plug",
+      "switch-white-cable",
+      "switch-red-cable",
+      "battery-xt60-cable"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable"
+    ],
+    "instructions": [
+      "Controleer eerst alle moeilijk bereikbare aansluitingen.",
+      "Laat de PCB met de modules als één geheel op de standoffs zakken.",
+      "Houd kabels uit de buurt van montagegaten."
+    ],
+    "parts": [],
+    "note": "Controleer eerst alle moeilijk bereikbare aansluitingen.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-washers-top",
+    "title": "M3-ringen boven de PCB",
+    "add": [
+      "pcb-washers-top"
+    ],
+    "focus": [
+      "pcb-washers-top"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top"
+    ],
+    "instructions": [
+      "Plaats ook boven de PCB op alle acht montagepunten een M3-ring.",
+      "Vier ringen komen onder de handgreepstandoffs; de andere vier onder de PCB-boutkoppen."
+    ],
+    "parts": [
+      "M3-ringen boven de PCB"
+    ],
+    "note": "Plaats ook boven de PCB op alle acht montagepunten een M3-ring.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-hardware",
+    "title": "PCB-bevestiging aanbrengen",
+    "add": [
+      "pcb-fasteners"
+    ],
+    "focus": [
+      "pcb-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners"
+    ],
+    "instructions": [
+      "Breng alleen op de vier overige montagepunten een PCB-bout aan.",
+      "Laat de twee linker en twee rechter handgreepgaten vrij voor de bovenste standoffs."
+    ],
+    "parts": [
+      "M3×10 platkop-inbusbout"
+    ],
+    "note": "Breng alleen op de vier overige montagepunten een PCB-bout aan.",
+    "cableStage": "pcb",
+    "raisedHardware": [
+      "pcb-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "pcb-secure",
+    "title": "PCB vastzetten",
+    "add": [],
+    "focus": [
+      "pcb-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners"
+    ],
+    "instructions": [
+      "Draai de vier PCB-bouten gelijkmatig vast.",
+      "De andere vier bevestigingspunten worden hierna door de handgreepstandoffs vastgeklemd.",
+      "Controleer dat alle kabels vrij liggen en de PCB vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de vier PCB-bouten gelijkmatig vast.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-standoffs-place",
+    "title": "Handgreep · 40 mm-standoffs plaatsen",
+    "add": [
+      "handle-standoffs"
+    ],
+    "focus": [
+      "handle-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs"
+    ],
+    "instructions": [
+      "Gebruik de twee linker en twee rechter doorgaande bevestigingsgaten.",
+      "Schroef de female onderzijde van de 40 mm-standoff op het uitstekende male draadeind van het onderste 30 mm-deel, door de PCB en ringen heen.",
+      "Hier komt geen losse bout tussen: de PCB wordt tussen de onderste en bovenste standoffs geklemd."
+    ],
+    "parts": [
+      "Handgreep · onderste delen 40 mm"
+    ],
+    "note": "Gebruik de twee linker en twee rechter doorgaande bevestigingsgaten.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-standoffs-secure",
+    "title": "Handgreep · PCB vastklemmen",
+    "add": [],
+    "focus": [
+      "handle-standoffs"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs"
+    ],
+    "instructions": [
+      "Zet de vier standoffs gelijkmatig vast zonder de PCB te buigen."
+    ],
+    "parts": [],
+    "note": "Zet de vier standoffs gelijkmatig vast zonder de PCB te buigen.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-standoffs-30-place",
+    "title": "Handgreep · 30 mm-delen toevoegen",
+    "add": [
+      "handle-standoffs-30"
+    ],
+    "focus": [
+      "handle-standoffs-30"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs",
+      "handle-standoffs-30"
+    ],
+    "instructions": [
+      "Schroef op ieder 40 mm-deel een 30 mm female–female-standoff.",
+      "Hier komt de bout van de handgreep in het bovenste schroefgat.",
+      "De standoffcombinatie boven de PCB is 70 mm hoog, plus de M3-ring onder de combinatie."
+    ],
+    "parts": [
+      "Handgreep · bovenste delen 30 mm"
+    ],
+    "note": "Schroef op ieder 40 mm-deel een 30 mm female–female-standoff.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-standoffs-30-secure",
+    "title": "Handgreepstandoffs vastzetten",
+    "add": [],
+    "focus": [
+      "handle-standoffs",
+      "handle-standoffs-30"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs",
+      "handle-standoffs-30"
+    ],
+    "instructions": [
+      "Controleer de vier combinaties van 40 + 30 mm en draai de verbindingen vast."
+    ],
+    "parts": [],
+    "note": "Controleer de vier combinaties van 40 + 30 mm en draai de verbindingen vast.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-place",
+    "title": "Handgreep plaatsen",
+    "add": [
+      "handle"
+    ],
+    "focus": [
+      "handle"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs",
+      "handle-standoffs-30",
+      "handle"
+    ],
+    "instructions": [
+      "Plaats de houten handgreep op de vier bovenste standoffcombinaties.",
+      "De volledige opbouw is: bout → 40 + 30 mm → M3-ring → PCB → M3-ring → 40 + 30 mm → handgreep → bout."
+    ],
+    "parts": [
+      "Houten handgreep"
+    ],
+    "note": "Plaats de houten handgreep op de vier bovenste standoffcombinaties.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-hardware",
+    "title": "Bevestiging · Handgreep",
+    "add": [
+      "handle-fasteners"
+    ],
+    "focus": [
+      "handle-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs",
+      "handle-standoffs-30",
+      "handle",
+      "handle-fasteners"
+    ],
+    "instructions": [
+      "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten."
+    ],
+    "parts": [
+      "Handgreepbevestiging"
+    ],
+    "note": "Bekijk de gemarkeerde bevestigingen en lijn ze uit met de montagegaten.",
+    "cableStage": "pcb",
+    "raisedHardware": [
+      "handle-fasteners"
+    ],
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "handle-secure",
+    "title": "Handgreep vastzetten",
+    "add": [],
+    "focus": [
+      "handle",
+      "handle-fasteners"
+    ],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs",
+      "handle-standoffs-30",
+      "handle",
+      "handle-fasteners"
+    ],
+    "instructions": [
+      "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit."
+    ],
+    "parts": [],
+    "note": "Draai de bevestigingen gelijkmatig vast. Controleer dat het onderdeel vlak zit.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "finish",
+    "title": "Eindcontrole",
+    "add": [],
+    "focus": [],
+    "visible": [
+      "frame",
+      "sensors",
+      "sensor-fasteners",
+      "sensor-cables",
+      "bracket0",
+      "bracket0-fasteners",
+      "bracket1",
+      "bracket1-fasteners",
+      "bracket2",
+      "bracket2-fasteners",
+      "bracket3",
+      "bracket3-fasteners",
+      "motor0",
+      "motor-bracket0-fasteners",
+      "motor0-wires",
+      "motor1",
+      "motor-bracket1-fasteners",
+      "motor1-wires",
+      "motor2",
+      "motor-bracket3-fasteners",
+      "motor2-wires",
+      "motor3",
+      "motor-bracket2-fasteners",
+      "motor3-wires",
+      "wheel0",
+      "wheel1",
+      "wheel2",
+      "wheel3",
+      "mc0-standoffs",
+      "mc0-standoff-fasteners",
+      "mc0",
+      "mc0-power-cable",
+      "mc0-fasteners",
+      "mc1-standoffs",
+      "mc1-standoff-fasteners",
+      "mc1",
+      "mc1-power-cable",
+      "mc1-fasteners",
+      "bumper-standoffs",
+      "bumper-standoff-fasteners",
+      "bumper",
+      "bumper-fasteners",
+      "battery-standoffs",
+      "battery-standoff-fasteners",
+      "battery",
+      "battery-fasteners",
+      "pcb-standoffs",
+      "pcb-standoff-fasteners",
+      "pcb-standoffs-30",
+      "pcb-washers-bottom",
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable",
+      "mc0-control-cable",
+      "mc1-control-cable",
+      "pcb-washers-top",
+      "pcb-fasteners",
+      "handle-standoffs",
+      "handle-standoffs-30",
+      "handle",
+      "handle-fasteners"
+    ],
+    "instructions": [
+      "Controleer alle bevestigingen, vrije wielrotatie en kabelspeling.",
+      "Controleer vóór inschakelen de polariteit en controleer of er geen kortsluiting is."
+    ],
+    "parts": [],
+    "note": "De mechanische montage is voltooid. Voer de eindcontrole uit vóór inschakelen.",
+    "cableStage": "pcb",
+    "motorOutputs": [
+      "mc0",
+      "mc1"
+    ],
+    "xt30Connected": true,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  }
+]

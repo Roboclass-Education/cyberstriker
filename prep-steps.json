@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "pcb-start",
+    "title": "PCB klaarleggen",
+    "add": [
+      "pcb"
+    ],
+    "focus": [
+      "pcb"
+    ],
+    "visible": [
+      "pcb"
+    ],
+    "instructions": [
+      "Bereid de PCB los van het frame voor. De vaste terminalhelften zijn al gesoldeerd."
+    ],
+    "parts": [
+      "RoboClass PCB met gesoldeerde componenten"
+    ],
+    "note": "Bereid de PCB los van het frame voor. De vaste terminalhelften zijn al gesoldeerd.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "due",
+    "title": "Arduino Due plaatsen",
+    "add": [
+      "due"
+    ],
+    "focus": [
+      "due"
+    ],
+    "visible": [
+      "pcb",
+      "due"
+    ],
+    "instructions": [
+      "Bekijk de onderzijde van de PCB.",
+      "Lijn de zwarte female headers en witte male headers over alle pinrijen uit.",
+      "Druk gelijkmatig; forceer geen verschoven pinrij."
+    ],
+    "parts": [
+      "Arduino Due"
+    ],
+    "note": "Bekijk de onderzijde van de PCB.",
+    "pcbLoose": false,
+    "view": "bottom",
+    "switchConnections": []
+  },
+  {
+    "id": "mux0",
+    "title": "TCA multiplexer 1 plaatsen",
+    "add": [
+      "mux0"
+    ],
+    "focus": [
+      "mux0"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0"
+    ],
+    "instructions": [
+      "De male pinrijen zijn aan de multiplexer gesoldeerd en bewegen met de module mee.",
+      "Steek beide male pinrijen in de vaste female headers op de PCB.",
+      "Houd de VIN/GND/SDA/SCL-zijde aan de buitenkant en de kanaalaansluitingen naar het centrum."
+    ],
+    "parts": [
+      "TCA multiplexer · 1"
+    ],
+    "note": "De male pinrijen zijn aan de multiplexer gesoldeerd en bewegen met de module mee.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "mux1",
+    "title": "TCA multiplexer 2 plaatsen",
+    "add": [
+      "mux1"
+    ],
+    "focus": [
+      "mux1"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1"
+    ],
+    "instructions": [
+      "De male pinrijen zijn aan de multiplexer gesoldeerd en bewegen met de module mee.",
+      "Steek beide male pinrijen in de vaste female headers op de PCB.",
+      "Houd de VIN/GND/SDA/SCL-zijde aan de buitenkant en de kanaalaansluitingen naar het centrum."
+    ],
+    "parts": [
+      "TCA multiplexer · 2"
+    ],
+    "note": "De male pinrijen zijn aan de multiplexer gesoldeerd en bewegen met de module mee.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "bno-plug",
+    "title": "BNO055 · uitneembare terminal",
+    "add": [
+      "bno-plug"
+    ],
+    "focus": [
+      "bno-plug"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug"
+    ],
+    "instructions": [
+      "Gebruik de groene 8P pluggable terminal met 2,54 mm pitch.",
+      "De losse plug heeft schroefklemmen; de male pinnen horen bij de module.",
+      "De vaste PCB-helft is al gesoldeerd en blijft op de print."
+    ],
+    "parts": [
+      "8P screw terminal · BNO055"
+    ],
+    "note": "Gebruik de groene 8P pluggable terminal met 2,54 mm pitch.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "bno",
+    "title": "BNO055 aansluiten",
+    "add": [
+      "bno"
+    ],
+    "focus": [
+      "bno"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno"
+    ],
+    "instructions": [
+      "Steek de gesoldeerde male headerpinnen van bovenaf in de openingen van de losse plug.",
+      "Draai de klemschroeven aan de zijkant vast zodat iedere pin wordt vastgehouden.",
+      "Plaats module en plug samen in de vaste PCB-helft."
+    ],
+    "parts": [
+      "BNO055 oriëntatiesensor"
+    ],
+    "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us0-plug",
+    "title": "US-016 1 · uitneembare terminal",
+    "add": [
+      "us0-plug"
+    ],
+    "focus": [
+      "us0-plug"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug"
+    ],
+    "instructions": [
+      "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+      "De losse plug heeft schroefklemmen; de male pinnen horen bij de module.",
+      "De vaste PCB-helft is al gesoldeerd en blijft op de print."
+    ],
+    "parts": [
+      "4P screw terminal · US-016 1"
+    ],
+    "note": "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us0",
+    "title": "US-016 1 aansluiten",
+    "add": [
+      "us0"
+    ],
+    "focus": [
+      "us0"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0"
+    ],
+    "instructions": [
+      "Steek de gesoldeerde male headerpinnen van bovenaf in de openingen van de losse plug.",
+      "Draai de klemschroeven aan de zijkant vast zodat iedere pin wordt vastgehouden.",
+      "Plaats module en plug samen in de vaste PCB-helft."
+    ],
+    "parts": [
+      "US-016 afstandssensor · 1"
+    ],
+    "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us1-plug",
+    "title": "US-016 2 · uitneembare terminal",
+    "add": [
+      "us1-plug"
+    ],
+    "focus": [
+      "us1-plug"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug"
+    ],
+    "instructions": [
+      "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+      "De losse plug heeft schroefklemmen; de male pinnen horen bij de module.",
+      "De vaste PCB-helft is al gesoldeerd en blijft op de print."
+    ],
+    "parts": [
+      "4P screw terminal · US-016 2"
+    ],
+    "note": "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us1",
+    "title": "US-016 2 aansluiten",
+    "add": [
+      "us1"
+    ],
+    "focus": [
+      "us1"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1"
+    ],
+    "instructions": [
+      "Steek de gesoldeerde male headerpinnen van bovenaf in de openingen van de losse plug.",
+      "Draai de klemschroeven aan de zijkant vast zodat iedere pin wordt vastgehouden.",
+      "Plaats module en plug samen in de vaste PCB-helft."
+    ],
+    "parts": [
+      "US-016 afstandssensor · 2"
+    ],
+    "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us2-plug",
+    "title": "US-016 3 · uitneembare terminal",
+    "add": [
+      "us2-plug"
+    ],
+    "focus": [
+      "us2-plug"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug"
+    ],
+    "instructions": [
+      "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+      "De losse plug heeft schroefklemmen; de male pinnen horen bij de module.",
+      "De vaste PCB-helft is al gesoldeerd en blijft op de print."
+    ],
+    "parts": [
+      "4P screw terminal · US-016 3"
+    ],
+    "note": "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us2",
+    "title": "US-016 3 aansluiten",
+    "add": [
+      "us2"
+    ],
+    "focus": [
+      "us2"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2"
+    ],
+    "instructions": [
+      "Steek de gesoldeerde male headerpinnen van bovenaf in de openingen van de losse plug.",
+      "Draai de klemschroeven aan de zijkant vast zodat iedere pin wordt vastgehouden.",
+      "Plaats module en plug samen in de vaste PCB-helft."
+    ],
+    "parts": [
+      "US-016 afstandssensor · 3"
+    ],
+    "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us3-plug",
+    "title": "US-016 4 · uitneembare terminal",
+    "add": [
+      "us3-plug"
+    ],
+    "focus": [
+      "us3-plug"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug"
+    ],
+    "instructions": [
+      "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+      "De losse plug heeft schroefklemmen; de male pinnen horen bij de module.",
+      "De vaste PCB-helft is al gesoldeerd en blijft op de print."
+    ],
+    "parts": [
+      "4P screw terminal · US-016 4"
+    ],
+    "note": "Gebruik de groene 4P pluggable terminal met 2,54 mm pitch.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "us3",
+    "title": "US-016 4 aansluiten",
+    "add": [
+      "us3"
+    ],
+    "focus": [
+      "us3"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3"
+    ],
+    "instructions": [
+      "Steek de gesoldeerde male headerpinnen van bovenaf in de openingen van de losse plug.",
+      "Draai de klemschroeven aan de zijkant vast zodat iedere pin wordt vastgehouden.",
+      "Plaats module en plug samen in de vaste PCB-helft."
+    ],
+    "parts": [
+      "US-016 afstandssensor · 4"
+    ],
+    "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "regulator-plug",
+    "title": "DD4012SA — basisversie · uitneembare terminal",
+    "add": [
+      "regulator-plug"
+    ],
+    "focus": [
+      "regulator-plug"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug"
+    ],
+    "instructions": [
+      "Gebruik de groene 3P pluggable terminal met 2,54 mm pitch.",
+      "De losse plug heeft schroefklemmen; de male pinnen horen bij de module.",
+      "De vaste PCB-helft is al gesoldeerd en blijft op de print."
+    ],
+    "parts": [
+      "3P screw terminal · regulator"
+    ],
+    "note": "Gebruik de groene 3P pluggable terminal met 2,54 mm pitch.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "regulator",
+    "title": "DD4012SA — basisversie aansluiten",
+    "add": [
+      "regulator"
+    ],
+    "focus": [
+      "regulator"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator"
+    ],
+    "instructions": [
+      "Steek de gesoldeerde male headerpinnen van bovenaf in de openingen van de losse plug.",
+      "Draai de klemschroeven aan de zijkant vast zodat iedere pin wordt vastgehouden.",
+      "Plaats module en plug samen in de vaste PCB-helft."
+    ],
+    "parts": [
+      "3,3 V / 1 A regulator · DD4012SA"
+    ],
+    "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "ir-layer0",
+    "title": "IR-blockers · inkeping 1",
+    "add": [
+      "ir-layer0"
+    ],
+    "focus": [
+      "ir-layer0"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0"
+    ],
+    "instructions": [
+      "Plaats het houten deel met inkeping om de IR-ontvanger. Bij de achterste TSSP (Assembly 315) monteer je de blocker boven op de PCB; de andere zeven komen onder de PCB."
+    ],
+    "parts": [
+      "IR-blockers · houten delen met inkeping 1"
+    ],
+    "note": "Plaats het houten deel met inkeping om de IR-ontvanger. Bij de achterste TSSP (Assembly 315) monteer je de blocker boven op de PCB; de andere zeven komen onder de PCB.",
+    "pcbLoose": false,
+    "view": "bottom",
+    "switchConnections": []
+  },
+  {
+    "id": "ir-layer1",
+    "title": "IR-blockers · inkeping 2",
+    "add": [
+      "ir-layer1"
+    ],
+    "focus": [
+      "ir-layer1"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1"
+    ],
+    "instructions": [
+      "Plaats het houten deel met inkeping om de IR-ontvanger. Bij de achterste TSSP (Assembly 315) monteer je de blocker boven op de PCB; de andere zeven komen onder de PCB."
+    ],
+    "parts": [
+      "IR-blockers · houten delen met inkeping 2"
+    ],
+    "note": "Plaats het houten deel met inkeping om de IR-ontvanger. Bij de achterste TSSP (Assembly 315) monteer je de blocker boven op de PCB; de andere zeven komen onder de PCB.",
+    "pcbLoose": false,
+    "view": "bottom",
+    "switchConnections": []
+  },
+  {
+    "id": "ir-layer2",
+    "title": "IR-blockers · sluitdelen",
+    "add": [
+      "ir-layer2"
+    ],
+    "focus": [
+      "ir-layer2"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2"
+    ],
+    "instructions": [
+      "Sluit de zeven onderste blockers van onderen af. Bij de achterste TSSP (Assembly 315) komt het sluitdeel bovenop."
+    ],
+    "parts": [
+      "IR-blockers · houten sluitdelen"
+    ],
+    "note": "Sluit de zeven onderste blockers van onderen af. Bij de achterste TSSP (Assembly 315) komt het sluitdeel bovenop.",
+    "pcbLoose": false,
+    "view": "bottom",
+    "switchConnections": []
+  },
+  {
+    "id": "ir-bolts",
+    "title": "IR-blockers · lange M2-bouten",
+    "add": [
+      "ir-bolts"
+    ],
+    "focus": [
+      "ir-bolts"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts"
+    ],
+    "instructions": [
+      "Plaats eerst een M2-ring onder iedere boutkop. Bij Assembly 315 gaan de bouten vanaf de onderzijde omhoog; de blocker zit boven op de PCB.",
+      "Plaats de 16 M2×18 mm-bouten door de PCB en de drie houten lagen."
+    ],
+    "parts": [
+      "M2×18 bouten + M2-ringen"
+    ],
+    "note": "Plaats eerst een M2-ring onder iedere boutkop. Bij Assembly 315 gaan de bouten vanaf de onderzijde omhoog; de blocker zit boven op de PCB.",
+    "pcbLoose": false,
+    "raisedHardware": [
+      "ir-bolts"
+    ],
+    "switchConnections": []
+  },
+  {
+    "id": "ir-nuts",
+    "title": "IR-blockers · M2-borgmoeren",
+    "add": [
+      "ir-nuts"
+    ],
+    "focus": [
+      "ir-nuts"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts"
+    ],
+    "instructions": [
+      "Draai de M2-borgmoeren direct tegen het hout; gebruik hier geen ringetjes. Bij Assembly 315 zitten de borgmoeren boven op de blocker.",
+      "Gebruik 16 M2-borgmoeren. Alleen onder de boutkoppen zitten de 16 M2-ringen."
+    ],
+    "parts": [
+      "M2-borgmoeren"
+    ],
+    "note": "Draai de M2-borgmoeren direct tegen het hout; gebruik hier geen ringetjes. Bij Assembly 315 zitten de borgmoeren boven op de blocker.",
+    "pcbLoose": false,
+    "raisedHardware": [
+      "ir-nuts"
+    ],
+    "switchConnections": []
+  },
+  {
+    "id": "ir-secure",
+    "title": "IR-blockers vastzetten",
+    "add": [],
+    "focus": [
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts"
+    ],
+    "instructions": [
+      "Zet elke blocker vast.",
+      "Controleer per ontvanger: twee delen met inkeping en één sluitdeel zonder inkeping."
+    ],
+    "parts": [],
+    "note": "Zet elke blocker vast.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "ir-tape",
+    "title": "IR-blockers met isolatietape omwikkelen",
+    "add": [
+      "ir-tape"
+    ],
+    "focus": [
+      "ir-tape"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape"
+    ],
+    "instructions": [
+      "Omwikkel de buitenzijden en naden. Bedek het sluitdeel zonder inkeping volledig: beide vlakke zijden en alle houten randen. Ook het stukje hout onder de kijkopening moet met tape bedekt zijn.",
+      "Laat de inkeping en de kijkopening van de IR-ontvanger volledig vrij.",
+      "Controleer dat de tape niet voor de ontvanger hangt."
+    ],
+    "parts": [
+      "Zwarte isolatietape · IR-blockers"
+    ],
+    "note": "Omwikkel de buitenzijden en naden. Bedek het sluitdeel zonder inkeping volledig: beide vlakke zijden en alle houten randen. Ook het stukje hout onder de kijkopening moet met tape bedekt zijn.",
+    "pcbLoose": false,
+    "view": "bottom",
+    "switchConnections": []
+  },
+  {
+    "id": "switch-white",
+    "title": "Witte powerknop met kabel plaatsen",
+    "add": [
+      "switch-white",
+      "switch-white-cable"
+    ],
+    "focus": [
+      "switch-white",
+      "switch-white-cable"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable"
+    ],
+    "instructions": [
+      "De XT30 male kabel is al aan de knop gesoldeerd. Plaats de powerknop in de bijbehorende PCB-uitsparing.",
+      "Controleer de aansluitrichting vóór het aansluiten."
+    ],
+    "parts": [
+      "Witte powerknop",
+      "XT30 male kabel · witte powerknop"
+    ],
+    "note": "De XT30 male kabel is al aan de knop gesoldeerd. Plaats de powerknop in de bijbehorende PCB-uitsparing.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "switch-red",
+    "title": "Rood/zwarte powerknop met kabel plaatsen",
+    "add": [
+      "switch-red",
+      "switch-red-cable"
+    ],
+    "focus": [
+      "switch-red",
+      "switch-red-cable"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable"
+    ],
+    "instructions": [
+      "De XT30 male kabel is al aan de knop gesoldeerd. Plaats de powerknop in de bijbehorende PCB-uitsparing.",
+      "Controleer de aansluitrichting vóór het aansluiten."
+    ],
+    "parts": [
+      "Rood/zwarte powerknop",
+      "XT30 male kabel · rood/zwarte powerknop"
+    ],
+    "note": "De XT30 male kabel is al aan de knop gesoldeerd. Plaats de powerknop in de bijbehorende PCB-uitsparing.",
+    "pcbLoose": false,
+    "switchConnections": []
+  },
+  {
+    "id": "switch-white-wire",
+    "title": "Powerknop aansluiten · wit",
+    "add": [],
+    "focus": [
+      "switch-white",
+      "switch-white-cable"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable"
+    ],
+    "instructions": [
+      "Gebruik de reeds aan de powerknop gesoldeerde XT30 male kabel.",
+      "Steek de male kabelstekker in de bijbehorende female XT30 op de PCB naast de knop."
+    ],
+    "parts": [],
+    "note": "Gebruik de reeds aan de powerknop gesoldeerde XT30 male kabel.",
+    "pcbLoose": false,
+    "switchConnections": [
+      "switch-white"
+    ]
+  },
+  {
+    "id": "switch-red-wire",
+    "title": "Powerknop aansluiten · rood",
+    "add": [],
+    "focus": [
+      "switch-red",
+      "switch-red-cable"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable"
+    ],
+    "instructions": [
+      "Gebruik de reeds aan de powerknop gesoldeerde XT30 male kabel.",
+      "Steek de male kabelstekker in de bijbehorende female XT30 op de PCB naast de knop."
+    ],
+    "parts": [],
+    "note": "Gebruik de reeds aan de powerknop gesoldeerde XT30 male kabel.",
+    "pcbLoose": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  },
+  {
+    "id": "battery-xt60",
+    "title": "Accukabel · male XT60",
+    "add": [
+      "battery-xt60-cable"
+    ],
+    "focus": [
+      "battery-xt60-cable"
+    ],
+    "visible": [
+      "pcb",
+      "due",
+      "mux0",
+      "mux1",
+      "bno-plug",
+      "bno",
+      "us0-plug",
+      "us0",
+      "us1-plug",
+      "us1",
+      "us2-plug",
+      "us2",
+      "us3-plug",
+      "us3",
+      "regulator-plug",
+      "regulator",
+      "ir-layer0",
+      "ir-layer1",
+      "ir-layer2",
+      "ir-bolts",
+      "ir-nuts",
+      "ir-tape",
+      "switch-white",
+      "switch-white-cable",
+      "switch-red",
+      "switch-red-cable",
+      "battery-xt60-cable"
+    ],
+    "instructions": [
+      "De XT60 is een kabel met een vrij male uiteinde bij de batterijhouder; de andere zijde wordt aan de PCB gesoldeerd.",
+      "Rood hoort op de pluspad, zwart op de minpad. Controleer de PCB-opdruk of het schema vóór het solderen."
+    ],
+    "parts": [
+      "XT60 batterijkabel"
+    ],
+    "note": "Rood op + en zwart op −; de padpolariteit in dit model is bevestigd.",
+    "pcbLoose": false,
+    "switchConnections": [
+      "switch-white",
+      "switch-red"
+    ]
+  }
+]
