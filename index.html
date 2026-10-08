@@ -1,6 +1,229 @@
-<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CyberStriker · Assembly Lab</title><meta name="description" content="Bouw de CyberStriker stap voor stap met het interactieve Assembly Lab."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d2035'/%3E%3Cpath d='M22 8H10v16h12M10 16h10' fill='none' stroke='%23ff8a3d' stroke-width='4'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css?v=control1"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head><body>
-<header><div class="brand" aria-label="RoboClass Assembly Lab"><img class="brand-logo" src="roboclass-logo.png" width="64" height="64" alt="RoboClass"><div>ROBOCLASS <span class="subbrand">ASSEMBLY LAB</span></div></div><span class="chapter">CHAPTER 04 <b>CyberStriker Quadro</b></span><label class="language-control"><span>Taal</span><select id="language" aria-label="Taal / Language"><option value="nl">Nederlands</option><option value="en">English</option></select></label></header>
-<main><aside><div class="section-label">MECHANISCHE ASSEMBLY</div><h1>Bouw de robot.<br>Stap voor stap.</h1><p class="intro">Bekijk de onderdelen van alle kanten en ontdek hoe de robot is opgebouwd.</p><div class="tabs" role="group" aria-label="Bouwvolgorde"><button id="explore" class="active">1 · Onderdelen</button><button id="prep">2 · PCB-montage</button><button id="assembly">3 · Framemontage</button><button id="wood" hidden>Frameonderdelen</button></div><div class="notice">Begin bij de onderdelen, bereid de PCB voor en monteer daarna het frame.</div><nav id="group-list" aria-label="Onderdelengroepen"></nav><div class="side-footer">CyberStriker Quadro<br><span id="count">Model laden…</span></div></aside>
-<section class="workspace"><div class="viewer-head"><div><span class="section-label" id="eyebrow">MODEL VERKENNEN</span><h2 id="heading">CyberStriker Quadro</h2></div><button id="reset">Herstel beeld</button></div><div id="viewport"><div class="views" role="group" aria-label="Kijkhoek"><button data-view="iso" class="active">3D</button><button data-view="top">Boven</button><button data-view="bottom">Onder</button><button data-view="front">Zij</button></div><div id="load" role="status"><div class="loader"></div><b>De CyberStriker laden</b><span id="load-text">Onderdelen en materialen ophalen…</span></div><div id="pick" hidden></div><div id="model-caption" hidden></div><div class="gesture">Slepen: draaien · Scrollen: zoomen · Klik: onderdeel bekijken</div></div><div class="controlbar"><div class="step-line"><span id="step-label">Volledig model</span><span id="step-total">16 groepen</span></div><input id="slider" type="range" min="0" max="15" value="0" aria-label="Montagestap" disabled><div class="actions"><button id="prev" disabled>Vorige</button><button id="next" class="primary" disabled>Volgende</button><button id="isolate" disabled>Alleen deze groep</button><label><input id="highlight" type="checkbox" checked> Markeer nieuw</label></div></div></section>
-<aside class="details"><span class="section-label">BIJ DEZE STAP</span><h2 id="detail-title">Ontdek het model</h2><p id="detail-text">Draai de robot, kies een onderdelengroep of open de bouwstappen. Klik op een onderdeel om de naam te bekijken.</p><div id="hardware" hidden></div><ol id="instructions"></ol><div id="status" class="status">Montagehandleiding</div><button id="pcb-action" class="primary wide" hidden>PCB voorbereiden</button><div id="student-start" class="student-start"><b>Zo begin je</b><ol><li>Kies een onderdeel of montagefase.</li><li>Draai en zoom het model; bekijk ook boven- en onderaanzicht.</li><li>Volg de stappen en controleer je werk voordat je verdergaat.</li></ol></div><div id="student-check" class="student-check" hidden><b id="check-title">Controleer dit</b><p id="check-text"></p><div><b id="tip-title">Let op</b><p id="tip-text"></p></div></div><div class="detail-rule"></div><span class="section-label">ONDERDELEN</span><div id="parts">Alle groepen zichtbaar</div><div class="tip"><b>Goed kijken helpt</b><p>Gebruik het onderaanzicht om montageplekken aan de onderkant te bekijken.</p></div><button id="full" class="wide">Toon overzicht</button></aside></main>
-<script type="module" src="app.js?v=control1"></script></body></html>
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CyberStriker · Assembly Lab</title>
+
+  <meta
+    name="description"
+    content="Bouw de CyberStriker stap voor stap met het interactieve Assembly Lab."
+  >
+
+  <link rel="icon" type="image/png" href="./roboclass-logo.png?v=2">
+  <link rel="shortcut icon" type="image/png" href="./roboclass-logo.png?v=2">
+  <link rel="apple-touch-icon" href="./roboclass-logo.png?v=2">
+
+  <link rel="stylesheet" href="style.css?v=control1">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three.module.js"
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+<header>
+  <div class="brand" aria-label="RoboClass Assembly Lab">
+    <img
+      class="brand-logo"
+      src="roboclass-logo.png"
+      width="64"
+      height="64"
+      alt="RoboClass"
+    >
+    <div>
+      ROBOCLASS
+      <span class="subbrand">ASSEMBLY LAB</span>
+    </div>
+  </div>
+
+  <span class="chapter">
+    CHAPTER 04
+    <b>CyberStriker Quadro</b>
+  </span>
+
+  <label class="language-control">
+    <span>Taal</span>
+    <select id="language" aria-label="Taal / Language">
+      <option value="nl">Nederlands</option>
+      <option value="en">English</option>
+    </select>
+  </label>
+</header>
+
+<main>
+
+  <aside>
+    <div class="section-label">MECHANISCHE ASSEMBLY</div>
+
+    <h1>
+      Bouw de robot.<br>
+      Stap voor stap.
+    </h1>
+
+    <p class="intro">
+      Bekijk de onderdelen van alle kanten en ontdek hoe de robot is opgebouwd.
+    </p>
+
+    <div class="tabs" role="group" aria-label="Bouwvolgorde">
+      <button id="explore" class="active">1 · Onderdelen</button>
+      <button id="prep">2 · PCB-montage</button>
+      <button id="assembly">3 · Framemontage</button>
+      <button id="wood" hidden>Frameonderdelen</button>
+    </div>
+
+    <div class="notice">
+      Begin bij de onderdelen, bereid de PCB voor en monteer daarna het frame.
+    </div>
+
+    <nav id="group-list" aria-label="Onderdelengroepen"></nav>
+
+    <div class="side-footer">
+      CyberStriker Quadro<br>
+      <span id="count">Model laden…</span>
+    </div>
+  </aside>
+
+  <section class="workspace">
+
+    <div class="viewer-head">
+      <div>
+        <span class="section-label" id="eyebrow">MODEL VERKENNEN</span>
+        <h2 id="heading">CyberStriker Quadro</h2>
+      </div>
+
+      <button id="reset">Herstel beeld</button>
+    </div>
+
+    <div id="viewport">
+
+      <div class="views" role="group" aria-label="Kijkhoek">
+        <button data-view="iso" class="active">3D</button>
+        <button data-view="top">Boven</button>
+        <button data-view="bottom">Onder</button>
+        <button data-view="front">Zij</button>
+      </div>
+
+      <div id="load" role="status">
+        <div class="loader"></div>
+        <b>De CyberStriker laden</b>
+        <span id="load-text">Onderdelen en materialen ophalen…</span>
+      </div>
+
+      <div id="pick" hidden></div>
+      <div id="model-caption" hidden></div>
+
+      <div class="gesture">
+        Slepen: draaien · Scrollen: zoomen · Klik: onderdeel bekijken
+      </div>
+
+    </div>
+
+    <div class="controlbar">
+
+      <div class="step-line">
+        <span id="step-label">Volledig model</span>
+        <span id="step-total">16 groepen</span>
+      </div>
+
+      <input
+        id="slider"
+        type="range"
+        min="0"
+        max="15"
+        value="0"
+        aria-label="Montagestap"
+        disabled
+      >
+
+      <div class="actions">
+        <button id="prev" disabled>Vorige</button>
+        <button id="next" class="primary" disabled>Volgende</button>
+        <button id="isolate" disabled>Alleen deze groep</button>
+
+        <label>
+          <input id="highlight" type="checkbox" checked>
+          Markeer nieuw
+        </label>
+      </div>
+
+    </div>
+
+  </section>
+
+  <aside class="details">
+
+    <span class="section-label">BIJ DEZE STAP</span>
+
+    <h2 id="detail-title">Ontdek het model</h2>
+
+    <p id="detail-text">
+      Draai de robot, kies een onderdelengroep of open de bouwstappen.
+      Klik op een onderdeel om de naam te bekijken.
+    </p>
+
+    <div id="hardware" hidden></div>
+
+    <ol id="instructions"></ol>
+
+    <div id="status" class="status">
+      Montagehandleiding
+    </div>
+
+    <button id="pcb-action" class="primary wide" hidden>
+      PCB voorbereiden
+    </button>
+
+    <div id="student-start" class="student-start">
+      <b>Zo begin je</b>
+
+      <ol>
+        <li>Kies een onderdeel of montagefase.</li>
+        <li>Draai en zoom het model; bekijk ook boven- en onderaanzicht.</li>
+        <li>Volg de stappen en controleer je werk voordat je verdergaat.</li>
+      </ol>
+    </div>
+
+    <div id="student-check" class="student-check" hidden>
+      <b id="check-title">Controleer dit</b>
+      <p id="check-text"></p>
+
+      <div>
+        <b id="tip-title">Let op</b>
+        <p id="tip-text"></p>
+      </div>
+    </div>
+
+    <div class="detail-rule"></div>
+
+    <span class="section-label">ONDERDELEN</span>
+
+    <div id="parts">
+      Alle groepen zichtbaar
+    </div>
+
+    <div class="tip">
+      <b>Goed kijken helpt</b>
+      <p>
+        Gebruik het onderaanzicht om montageplekken aan de onderkant te bekijken.
+      </p>
+    </div>
+
+    <button id="full" class="wide">
+      Toon overzicht
+    </button>
+
+  </aside>
+
+</main>
+
+<script type="module" src="app.js?v=control1"></script>
+
+</body>
+</html>
