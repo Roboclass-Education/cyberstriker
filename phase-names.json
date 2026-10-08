@@ -1,0 +1,56 @@
+{
+  "assembly": [
+    {
+      "start": 0,
+      "end": 4,
+      "title": "Basis en sensoren"
+    },
+    {
+      "start": 5,
+      "end": 44,
+      "title": "Aandrijving"
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "title": "Motorcontrollers"
+    },
+    {
+      "start": 61,
+      "end": 73,
+      "title": "Bumpers en batterijhouder"
+    },
+    {
+      "start": 74,
+      "end": 87,
+      "title": "PCB en bedrading"
+    },
+    {
+      "start": 88,
+      "end": 94,
+      "title": "Handgreep en eindcontrole"
+    }
+  ],
+  "prep": [
+    {
+      "start": 0,
+      "end": 3,
+      "title": "Arduino en multiplexers"
+    },
+    {
+      "start": 4,
+      "end": 15,
+      "title": "Sensoren en terminals"
+    },
+    {
+      "start": 16,
+      "end": 22,
+      "title": "IR-blockers"
+    },
+    {
+      "start": 23,
+      "end": 27,
+      "title": "Powerknoppen en accukabel"
+    }
+  ]
+}

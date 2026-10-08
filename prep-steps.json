@@ -45,7 +45,9 @@
     "note": "Bekijk de onderzijde van de PCB.",
     "pcbLoose": false,
     "view": "bottom",
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De pinrijen staan recht en zijn volledig in de juiste female headers geplaatst.",
+    "studentTip": "Lijn eerst alle pinnen uit. Druk niet door als één rij verschoven staat."
   },
   {
     "id": "mux0",
@@ -71,7 +73,9 @@
     ],
     "note": "De male pinrijen zijn aan de multiplexer gesoldeerd en bewegen met de module mee.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De pinrijen staan recht en zijn volledig in de juiste female headers geplaatst.",
+    "studentTip": "Lijn eerst alle pinnen uit. Druk niet door als één rij verschoven staat."
   },
   {
     "id": "mux1",
@@ -98,7 +102,9 @@
     ],
     "note": "De male pinrijen zijn aan de multiplexer gesoldeerd en bewegen met de module mee.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De pinrijen staan recht en zijn volledig in de juiste female headers geplaatst.",
+    "studentTip": "Lijn eerst alle pinnen uit. Druk niet door als één rij verschoven staat."
   },
   {
     "id": "bno-plug",
@@ -155,7 +161,9 @@
     ],
     "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De male modulepinnen zitten in de losse terminalplug; de zijschroeven houden de modulepinnen vast.",
+    "studentTip": "Controleer het aantal pinnen en de richting voordat je de plug in de PCB-terminal plaatst."
   },
   {
     "id": "us0-plug",
@@ -216,7 +224,9 @@
     ],
     "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De male modulepinnen zitten in de losse terminalplug; de zijschroeven houden de modulepinnen vast.",
+    "studentTip": "Controleer het aantal pinnen en de richting voordat je de plug in de PCB-terminal plaatst."
   },
   {
     "id": "us1-plug",
@@ -281,7 +291,9 @@
     ],
     "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De male modulepinnen zitten in de losse terminalplug; de zijschroeven houden de modulepinnen vast.",
+    "studentTip": "Controleer het aantal pinnen en de richting voordat je de plug in de PCB-terminal plaatst."
   },
   {
     "id": "us2-plug",
@@ -350,7 +362,9 @@
     ],
     "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De male modulepinnen zitten in de losse terminalplug; de zijschroeven houden de modulepinnen vast.",
+    "studentTip": "Controleer het aantal pinnen en de richting voordat je de plug in de PCB-terminal plaatst."
   },
   {
     "id": "us3-plug",
@@ -423,7 +437,9 @@
     ],
     "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De male modulepinnen zitten in de losse terminalplug; de zijschroeven houden de modulepinnen vast.",
+    "studentTip": "Controleer het aantal pinnen en de richting voordat je de plug in de PCB-terminal plaatst."
   },
   {
     "id": "regulator-plug",
@@ -500,7 +516,9 @@
     ],
     "note": "2,54 mm pinrij; beide helften volgen de meegeleverde connectorfoto’s.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De male modulepinnen zitten in de losse terminalplug; de zijschroeven houden de modulepinnen vast.",
+    "studentTip": "Controleer het aantal pinnen en de richting voordat je de plug in de PCB-terminal plaatst."
   },
   {
     "id": "ir-layer0",
@@ -800,7 +818,9 @@
     "note": "Omwikkel de buitenzijden en naden. Bedek het sluitdeel zonder inkeping volledig: beide vlakke zijden en alle houten randen. Ook het stukje hout onder de kijkopening moet met tape bedekt zijn.",
     "pcbLoose": false,
     "view": "bottom",
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De blocker is rondom geïsoleerd, ook aan de onderzijde; de inkeping en kijkopening blijven vrij.",
+    "studentTip": "Bedek hout en randen met tape. Plak geen tape over het optische venster."
   },
   {
     "id": "switch-white",
@@ -849,7 +869,9 @@
     ],
     "note": "De XT30 male kabel is al aan de knop gesoldeerd. Plaats de powerknop in de bijbehorende PCB-uitsparing.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De knop zit stevig en de vooraf gesoldeerde kabel beweegt niet los.",
+    "studentTip": "Het elektrisch aansluiten gebeurt in de volgende aparte stap."
   },
   {
     "id": "switch-red",
@@ -900,7 +922,9 @@
     ],
     "note": "De XT30 male kabel is al aan de knop gesoldeerd. Plaats de powerknop in de bijbehorende PCB-uitsparing.",
     "pcbLoose": false,
-    "switchConnections": []
+    "switchConnections": [],
+    "studentCheck": "De knop zit stevig en de vooraf gesoldeerde kabel beweegt niet los.",
+    "studentTip": "Het elektrisch aansluiten gebeurt in de volgende aparte stap."
   },
   {
     "id": "switch-white-wire",
@@ -947,7 +971,9 @@
     "pcbLoose": false,
     "switchConnections": [
       "switch-white"
-    ]
+    ],
+    "studentCheck": "De stekker zit volledig in de juiste aansluiting en de kabel heeft lichte speling.",
+    "studentTip": "Controleer dat de kabel niet onder een bevestigingspunt komt."
   },
   {
     "id": "switch-red-wire",
@@ -995,7 +1021,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "De stekker zit volledig in de juiste aansluiting en de kabel heeft lichte speling.",
+    "studentTip": "Controleer dat de kabel niet onder een bevestigingspunt komt."
   },
   {
     "id": "battery-xt60",

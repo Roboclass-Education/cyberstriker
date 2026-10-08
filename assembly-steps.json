@@ -54,7 +54,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Kijk vóór het vastzetten of de optische zijde door de uitsparing naar de vloer wijst en geen sensor scheef zit.",
+    "studentTip": "Forceer een sensor niet als de gaten niet precies uitlijnen."
   },
   {
     "id": "sensors-hardware",
@@ -110,7 +112,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Alle sensoren liggen vlak en bewegen niet; de optische zijde blijft vrij naar de vloer gericht.",
+    "studentTip": "Draai de bouten gelijkmatig aan. Stop als een sensor scheef trekt."
   },
   {
     "id": "sensor-cables",
@@ -140,7 +144,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Elke sensor heeft één kabel; de vrije stekkeruiteinden blijven bereikbaar voor de PCB.",
+    "studentTip": "Trek aan de stekkerbehuizing, niet aan de draden."
   },
   {
     "id": "bracket0-place",
@@ -811,7 +817,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Rood en zwart blijven herkenbaar en de draden lopen niet langs de wielruimte.",
+    "studentTip": "Laat genoeg speling voor beweging, maar houd draden weg van de wielen."
   },
   {
     "id": "motor1-place",
@@ -1002,7 +1010,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Rood en zwart blijven herkenbaar en de draden lopen niet langs de wielruimte.",
+    "studentTip": "Laat genoeg speling voor beweging, maar houd draden weg van de wielen."
   },
   {
     "id": "motor2-place",
@@ -1205,7 +1215,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Rood en zwart blijven herkenbaar en de draden lopen niet langs de wielruimte.",
+    "studentTip": "Laat genoeg speling voor beweging, maar houd draden weg van de wielen."
   },
   {
     "id": "motor3-place",
@@ -1420,7 +1432,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Rood en zwart blijven herkenbaar en de draden lopen niet langs de wielruimte.",
+    "studentTip": "Laat genoeg speling voor beweging, maar houd draden weg van de wielen."
   },
   {
     "id": "wheel0-coupler",
@@ -1569,7 +1583,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Het wiel draait vrij en de borgschroef zit op het vlakke deel van de motoras.",
+    "studentTip": "Draait het wiel zwaar? Controleer eerst de uitlijning voordat je verdergaat."
   },
   {
     "id": "wheel1-coupler",
@@ -1721,7 +1737,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Het wiel draait vrij en de borgschroef zit op het vlakke deel van de motoras.",
+    "studentTip": "Draait het wiel zwaar? Controleer eerst de uitlijning voordat je verdergaat."
   },
   {
     "id": "wheel2-coupler",
@@ -1876,7 +1894,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Het wiel draait vrij en de borgschroef zit op het vlakke deel van de motoras.",
+    "studentTip": "Draait het wiel zwaar? Controleer eerst de uitlijning voordat je verdergaat."
   },
   {
     "id": "wheel3-coupler",
@@ -2034,7 +2054,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Het wiel draait vrij en de borgschroef zit op het vlakke deel van de motoras.",
+    "studentTip": "Draait het wiel zwaar? Controleer eerst de uitlijning voordat je verdergaat."
   },
   {
     "id": "mc0-standoffs-place",
@@ -2266,7 +2288,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Rood zit op +12V, zwart op GND en +5V blijft vrij.",
+    "studentTip": "Houd de oriëntatie aan die op de referentiefoto staat; verwissel de voedingsklemmen niet."
   },
   {
     "id": "mc0-place",
@@ -2755,7 +2779,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Rood zit op +12V, zwart op GND en +5V blijft vrij.",
+    "studentTip": "Houd de oriëntatie aan die op de referentiefoto staat; verwissel de voedingsklemmen niet."
   },
   {
     "id": "mc1-place",
@@ -4618,7 +4644,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "De vier achterste sensorkabels lopen zoals aangegeven: de twee voorste naar rechts, de twee achterste naar links.",
+    "studentTip": "Stekkers die niet uitlijnen horen niet op die aansluiting. Controleer eerst de positie en oriëntatie."
   },
   {
     "id": "prepcb-dupont",
@@ -4840,7 +4868,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Elke female XT30-kabelstekker zit op de bijbehorende male XT30-connector.",
+    "studentTip": "Lijn de stekker uit en druk recht aan; forceer hem niet."
   },
   {
     "id": "pcb-place",
@@ -4972,7 +5002,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "De modules en kabels blijven vrij van montagegaten wanneer de PCB op de standoffs rust.",
+    "studentTip": "Laat de PCB gelijkmatig zakken. Stop als een kabel klem komt te zitten."
   },
   {
     "id": "pcb-washers-top",
@@ -5304,7 +5336,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "De PCB ligt vlak, met ringen op de bevestigingspunten en zonder ingeklemde kabels.",
+    "studentTip": "Draai de bouten om en om en gelijkmatig aan."
   },
   {
     "id": "handle-standoffs-place",
@@ -6089,7 +6123,9 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "De handgreep zit vast en de PCB blijft vlak geklemd tussen de ringen.",
+    "studentTip": "Trek de bevestigingen niet zo strak aan dat de PCB buigt."
   },
   {
     "id": "finish",
@@ -6198,6 +6234,8 @@
     "switchConnections": [
       "switch-white",
       "switch-red"
-    ]
+    ],
+    "studentCheck": "Controleer alle wielen, sensoren, bevestigingen en aansluitingen. Geen kabel raakt een wiel; de PCB ligt vlak; de powerknoppen schakelen vrij.",
+    "studentTip": "Sluit de accu pas aan wanneer alle aansluitingen en polariteit nogmaals zijn gecontroleerd."
   }
 ]
